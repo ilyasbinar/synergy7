@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" modified="2024-03-06T13:13:39.866Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5IZ01u5Ztz14mrC9AF8v" version="24.0.2" type="device">
+  <diagram name="Page-1" id="ORrLqAminlTVCVGWtcMT">
+    <mxGraphModel dx="2284" dy="1886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_5RS87E85YZtm8H7JurS-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="10" width="420" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="566" y="10" width="310" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5RS87E85YZtm8H7JurS-1" target="_5RS87E85YZtm8H7JurS-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5RS87E85YZtm8H7JurS-1" target="_5RS87E85YZtm8H7JurS-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="180" />
+              <mxPoint x="80" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-1" value="Tokopedia BE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="221.54" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5RS87E85YZtm8H7JurS-2" target="_5RS87E85YZtm8H7JurS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-18" value="http request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_5RS87E85YZtm8H7JurS-12">
+          <mxGeometry x="-0.5227" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-2" value="Mobile App Tokopedia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="676" y="40" width="70" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5RS87E85YZtm8H7JurS-3" target="_5RS87E85YZtm8H7JurS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-19" value="http request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_5RS87E85YZtm8H7JurS-14">
+          <mxGeometry x="-0.4719" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-3" value="Web Tokopedia.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="651" y="300" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-4" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-7" value="Front End" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="576" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-9" value="Back End" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5RS87E85YZtm8H7JurS-10" target="_5RS87E85YZtm8H7JurS-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="306" y="290" />
+              <mxPoint x="396" y="290" />
+              <mxPoint x="396" y="282" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-21" value="Response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_5RS87E85YZtm8H7JurS-17">
+          <mxGeometry x="-0.0508" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-10" value="API" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/API_Management_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="280" y="221.54" width="52.5" height="48.46" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.514;entryY=-0.114;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_5RS87E85YZtm8H7JurS-11" target="_5RS87E85YZtm8H7JurS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-20" value="http request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_5RS87E85YZtm8H7JurS-13">
+          <mxGeometry x="0.2684" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5RS87E85YZtm8H7JurS-11" target="_5RS87E85YZtm8H7JurS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-23" value="http response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_5RS87E85YZtm8H7JurS-22">
+          <mxGeometry x="0.1101" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5RS87E85YZtm8H7JurS-11" target="_5RS87E85YZtm8H7JurS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-25" value="http response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_5RS87E85YZtm8H7JurS-24">
+          <mxGeometry x="0.1823" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-11" value="internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="460" y="255" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_5RS87E85YZtm8H7JurS-1" target="_5RS87E85YZtm8H7JurS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-16" value="http:&lt;div&gt;header, body&lt;br&gt;Request&lt;br&gt;Response&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-26" value="method:&lt;br&gt;put, get, post, patch, delete" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-27" value="header: jwt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="566" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5RS87E85YZtm8H7JurS-29" target="_5RS87E85YZtm8H7JurS-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-29" value="Tokopedia BE Account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="221.54" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5RS87E85YZtm8H7JurS-30" target="_5RS87E85YZtm8H7JurS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-30" value="Tokopedia BE Transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-31" value="Tokopedia BE Product" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-32" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="20" y="330" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_5RS87E85YZtm8H7JurS-33" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
