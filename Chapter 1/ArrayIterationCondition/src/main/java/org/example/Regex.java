@@ -27,5 +27,15 @@ public class Regex {
         }
 
         System.out.println(b + " " + b2 + " " + b3+ " " + b4);
+        String input = "12.345.678-1.123.444";
+        // Compile regular expression
+        final Pattern pattern = Pattern.compile("\\d\\d\\.\\d\\d\\d\\.\\d\\d\\d-\\d\\.\\d\\d\\d\\.\\d\\d\\d", Pattern.CASE_INSENSITIVE);
+        // Match regex against input
+        boolean valid = pattern.matcher(input).matches();
+        if(valid){
+            System.out.println("NPWP Valid");
+        }else {
+            System.out.println("NPWP tidak valid");
+        }
     }
 }
