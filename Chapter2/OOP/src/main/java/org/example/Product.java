@@ -27,6 +27,7 @@ public class Product {
     }
 
     public String getLabel(){
+        //membandingkan apakah type adalah smartphone
         if(type.equals("Smartphone")){
             if(price>1000000) return "Mahal";
             else return "Murah";
@@ -37,6 +38,10 @@ public class Product {
     }
 
     public String getLabelWithBrand(){
+        /*
+         jika product selain apple maka mahal ketika diatas 100000
+         dan jika product Ducati maka mahal ketika diatas 500000
+         */
         if(type.equals("Smartphone")){
             if(price>1000000 && !brand.equals("Apple")) return "Mahal";
             else return "Murah";

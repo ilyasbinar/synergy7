@@ -12,20 +12,19 @@ import java.util.List;
 @Getter
 @NoArgsConstructor
 @Accessors(chain = true)
-public class Seller extends User {
+public class Buyer extends User {
     private Long id;
     private String address;
-    private List<Product> productList;
 
     @Override
     public String totalTransaction() {
-        //TODO: logic untuk menghitung total transaksi si seller
+        //TODO: logic untuk menghitung total transaksi si buyer
         return getName()+" total transaksi 10";
     }
 
     @Override
     public long totalPenjualan() {
-        //hitung total penjualan si seller
+        // disii saja dengan 0 karena buyer tidak punya penjualan
         return 0;
     }
 }
