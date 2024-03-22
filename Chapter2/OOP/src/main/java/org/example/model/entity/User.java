@@ -19,7 +19,7 @@ public abstract class User {
     //CONTOH TIDAK BENAR
     public abstract long totalPenjualan();
 
-    enum Gender{
+    public enum Gender{
         MALE(1), FEMALE(2);
 
         private int value;
