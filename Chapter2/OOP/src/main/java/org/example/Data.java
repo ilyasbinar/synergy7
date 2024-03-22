@@ -1,13 +1,20 @@
 package org.example;
 
+import org.example.model.entity.Product;
+import org.example.model.entity.Seller;
+import org.example.model.entity.User;
+
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Data {
 
     public static List<Product> productList = new ArrayList<>();
     public static List<Seller> sellerList = new ArrayList<>();
+//    public static Set<Product> productSet = new TreeSet<>();
+
+    public static Map<Long, Product> productMap = new HashMap<>();
+//    public static Map<Long, Product> productMap = new LinkedHashMap<>();
     public static void initiateProduct(){
 
         Seller ilyas = new Seller();
@@ -53,7 +60,7 @@ public class Data {
 
         //Dari @AllArgumentConstructor
         Product kipasMiyako = new Product(4L, "Kipas Anging Standing", "Kipas Angin",
-                150000, LocalDate.now(), LocalDate.now(), "", "Miyako", ilyas);
+                150000, null, null, LocalDate.now(), LocalDate.now(), "", "Miyako", ilyas);
 
         //Dari @NoArgsConstructor
         Product sepatuAdidasL = new Product();
@@ -79,5 +86,15 @@ public class Data {
         sellerList.add(michele);
         sellerList.add(naomi);
         sellerList.add(ilyas);
+
+        productMap.put(ip11.getId(), ip11);
+        productMap.put(galaxy11.getId(), galaxy11);
+        productMap.put(hondaSupra.getId(), hondaSupra);
+        productMap.put(kipasMiyako.getId(), kipasMiyako);
+
+//        productSet.add(ip11);
+//        productSet.add(galaxy11);
+//        productSet.add(hondaSupra);
+//        productSet.add(kipasMiyako);
     }
 }

@@ -1,20 +1,23 @@
-package org.example;
+package org.example.model.entity;
 
 import lombok.*;
 import lombok.experimental.Accessors;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Setter
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Accessors(chain = true)
-public class Product {
+public class Product {//implements Comparable{
     private Long id;
     private String name;
     private String type;
     private long price;
+    private LocalDateTime createdDate;//waktu product ditambahkan
+    private LocalDateTime updatedDate;//waktu product diubah
     private LocalDate productionDate;
     private LocalDate expiredDate;
     private String description;
@@ -50,4 +53,17 @@ public class Product {
             else return "Murah";
         } else return "N/A";
     }
+
+//    @Override
+//    public int compareTo(Product p) {
+//        if (getType() == null || p.getType() == null) {
+//            return 0;
+//        }
+//        return getType().compareTo(p.getType());
+//    }
+//
+//    @Override
+//    public int compareTo(Object o) {
+//        return getType().compareTo(o.get);
+//    }
 }

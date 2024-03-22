@@ -1,12 +1,11 @@
-package org.example;
+package org.example.model.entity;
 
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
-
-import java.util.List;
+import org.example.model.entity.User;
 
 @Setter
 @Getter
