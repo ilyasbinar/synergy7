@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
-import org.example.model.entity.User;
 
 @Setter
 @Getter
@@ -17,7 +16,6 @@ public class Buyer extends User {
 
     @Override
     public String totalTransaction() {
-        //TODO: logic untuk menghitung total transaksi si buyer
         return getName()+" total transaksi 10";
     }
 

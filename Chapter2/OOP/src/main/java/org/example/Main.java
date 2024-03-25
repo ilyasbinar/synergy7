@@ -1,9 +1,6 @@
 package org.example;
 
 import org.example.controller.ProductController;
-import org.example.service.SellerService;
-
-import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {

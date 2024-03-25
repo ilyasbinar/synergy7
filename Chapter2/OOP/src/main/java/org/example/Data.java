@@ -91,10 +91,5 @@ public class Data {
         productMap.put(galaxy11.getId(), galaxy11);
         productMap.put(hondaSupra.getId(), hondaSupra);
         productMap.put(kipasMiyako.getId(), kipasMiyako);
-
-//        productSet.add(ip11);
-//        productSet.add(galaxy11);
-//        productSet.add(hondaSupra);
-//        productSet.add(kipasMiyako);
     }
 }

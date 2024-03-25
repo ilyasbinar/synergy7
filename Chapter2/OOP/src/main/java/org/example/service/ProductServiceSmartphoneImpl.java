@@ -23,6 +23,11 @@ public class ProductServiceSmartphoneImpl implements ProductService{
     }
 
     @Override
+    public Map<Long, Product> getProductList(boolean expired) {
+        return null;
+    }
+
+    @Override
     public List<Product> getProductList(Seller seller) {
         return seller.getProductList();
     }
@@ -34,6 +39,11 @@ public class ProductServiceSmartphoneImpl implements ProductService{
 
     @Override
     public Product update(Long id, Product product) {
+        return null;
+    }
+
+    @Override
+    public Product setExpiredDate(Product product) {
         return null;
     }
 }

@@ -11,6 +11,7 @@ import java.util.Map;
 public class ProductController {
     public void mainMenu(){
         displayProducts();
+        displayProducts();
 
         MenuView menuView = new MenuView();
         menuView.displayMainMenu();

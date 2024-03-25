@@ -19,7 +19,6 @@ public class Seller extends User {
 
     @Override
     public String totalTransaction() {
-        //TODO: logic untuk menghitung total transaksi si seller
         return getName()+" total transaksi 10";
     }
 

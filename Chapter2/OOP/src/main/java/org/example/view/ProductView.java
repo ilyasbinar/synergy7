@@ -10,10 +10,10 @@ import java.util.Set;
 
 public class ProductView {
     public void displayProducts(Map<Long, Product> productMap){
-        Set<Long> setId = Data.productMap.keySet();
+        Set<Long> setId = productMap.keySet();
         displayHeader();
         for (Long key : setId) {
-            displayProduct(Data.productMap.get(key));
+            displayProduct(productMap.get(key));
         }
     }
 

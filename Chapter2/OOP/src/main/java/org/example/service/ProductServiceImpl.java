@@ -26,6 +26,17 @@ public class ProductServiceImpl implements ProductService{
     }
 
     @Override
+    public Map<Long, Product> getProductList(boolean expired) {
+        Map<Long, Product> productMap = Data.productMap;
+
+        if(!expired){
+            //todo: buang yang sudah lewat batas expired
+        }
+
+        return productMap;
+    }
+
+    @Override
     public List<Product> getProductList(Seller seller) {
         return seller.getProductList();
     }
@@ -45,4 +56,11 @@ public class ProductServiceImpl implements ProductService{
         Data.productMap.replace(id, tobeUpdatedProduct);
         return tobeUpdatedProduct;
     }
+
+    @Override
+    public Product setExpiredDate(Product product) {
+        return null;
+    }
+
+
 }
