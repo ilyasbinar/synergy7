@@ -4,6 +4,7 @@ import org.example.controller.ProductController;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("test");
 //        CollectionTutorial.set();
         Data.initiateProduct();
         ProductController pc = new ProductController();
