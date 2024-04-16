@@ -3,6 +3,7 @@ package org.example;
 import org.example.model.entity.Product;
 import org.example.model.entity.Seller;
 import org.example.model.entity.User;
+import org.example.model.entity.Variant;
 
 import java.time.LocalDate;
 import java.util.*;
@@ -56,6 +57,11 @@ public class Data {
         galaxy11.setPrice(8000000);
         galaxy11.setSeller(michele);
 
+        Variant variant256GB = new Variant();
+        variant256GB.setId(1L);
+        variant256GB.setDescription("256 GB");
+        galaxy11.setVariant(variant256GB);
+
         Product hondaSupra = new Product(3L, "Honda Supra 125");
         hondaSupra.setType("Motorcycle");
         hondaSupra.setBrand("Honda");
@@ -64,7 +70,7 @@ public class Data {
 
         //Dari @AllArgumentConstructor
         Product kipasMiyako = new Product(4L, "Kipas Anging Standing", "Kipas Angin",
-                150000, null, null, LocalDate.now(), LocalDate.now(), "", "Miyako", ilyas);
+                150000, null, null, LocalDate.now(), LocalDate.now(), "", "Miyako", ilyas, null);
 
         //Dari @NoArgsConstructor
         Product sepatuAdidasL = new Product();

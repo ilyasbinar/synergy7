@@ -24,7 +24,11 @@ public class Product {//implements Comparable{
     private String description;
     private String brand;
     private Seller seller;
+    private Variant variant;
 
+    public Optional<Variant> getVariant() {
+        return Optional.ofNullable(variant);
+    }
     Optional<Seller> getSellerOptional() {
         return Optional.ofNullable(seller);
     }
