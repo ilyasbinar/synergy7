@@ -1,9 +1,11 @@
 package org.example;
 
+import org.example.model.Employee;
 import org.example.service.PriceService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.*;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
@@ -60,5 +62,77 @@ public class Main {
 
         Long thePrice2222 = priceServiceImplLambda.getPrice("2222");
         System.out.println(thePrice2222);
+
+
+        System.out.println("============");
+        System.out.println("Lambda in collection");
+
+        List<String> students = new ArrayList<>();
+        students.add("Nisak");
+        students.add("Naomi");
+        students.add("Michelle");
+        students.add("Marcel");
+
+        //Konvensional
+        System.out.println("===konvensional==");
+        for (String s:students){
+            System.out.println(s);
+        }
+
+        //Lambda
+        System.out.println("===Lambda===");
+        students.forEach(student -> System.out.println(student));
+
+        System.out.println("===Method Reference===");
+        students.forEach(System.out::println);
+
+        //konvensional
+//        for (String s:students){
+//            if(s.length()>5) {
+//                students.remove(s);
+//            }
+//        }
+
+        //lambda
+        students.removeIf(s -> s.length()>5);
+
+        System.out.println("===Result===");
+        students.forEach(System.out::println);
+
+
+        System.out.println("====Employee====");
+
+        Employee rahmi =  new Employee("1", "Rahmi", 10000000L);
+        Employee nugrah = new Employee("2", "Nugrah", 15000000L);
+        Employee jalil = new Employee("3", "Jalil", 20000000L);
+
+
+        List<Employee> employeeList = Arrays.asList(
+               rahmi,
+                nugrah,
+                jalil
+        );
+
+        System.out.println("ID | Nama | Gaji");
+        employeeList.forEach(employee
+                -> System.out.println(employee.getId()+". "+employee.getName()+" | "+employee.getSalary()));
+
+//        employeeList.forEach(System.out::println);
+
+        System.out.println("====Map====");
+        Map<String, Employee> employeeMap = new HashMap<>();
+        employeeMap.put("1", rahmi);
+        employeeMap.put("2", nugrah);
+        employeeMap.put("3", jalil);
+
+        //konvensional
+        System.out.println("====Konvensional====");
+        for(Map.Entry<String, Employee> entry: employeeMap.entrySet()){
+            System.out.println(entry.getKey()+": "+entry.getValue().getNameAndSalary());
+        }
+
+        System.out.println("====Lambda====");
+        employeeMap.forEach((key, value) -> System.out.println(key+": "+value.getNameAndSalary()));
+
     }
 }
