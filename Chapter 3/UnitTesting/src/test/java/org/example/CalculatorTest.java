@@ -30,6 +30,14 @@ class CalculatorTest {
     }
 
     @Test
+    @DisplayName("Positive Test - Division by zero")
+    void divisionByZero() {
+        Calculator calculator = new Calculator();
+        double result = calculator.division(10, 0);
+        Assertions.assertEquals(0, result);
+    }
+
+    @Test
     @DisplayName("Negative Test - Invalid Request")
     void testInvalidRequestAdition(){
         Calculator calculator =  new Calculator();
