@@ -5,12 +5,13 @@ import com.example.xx2.service.MovieService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
 import java.util.List;
 
-@Component
+@Controller
 @Slf4j
-public class MovieController {
+public class Movie2Controller {
 
     @Autowired
     MovieService movieService;
@@ -25,11 +26,7 @@ public class MovieController {
         System.out.println("Tampikan film-film yang akan segera tayang");
     }
 
-    public Movie create(){
-        String name = movieView.getName();
-        Long price = movieView.getPrice();
-
-        Movie movie = new Movie(name, price);
+    public Movie create(Movie movie){
         movieService.create(movie);
         return null;
     }

@@ -19,7 +19,7 @@ public class HomeController {
     public void home() throws InterruptedException {
         StopWatch sw = new StopWatch();
         sw.start();
-        Thread.sleep(2000);
+//        Thread.sleep(2000);
         //Logic Method
         movieController.displayShowingMovie();
         //End of Logic Method
@@ -30,6 +30,11 @@ public class HomeController {
     }
 
     public void home2(){
+        try{
+
+        }catch (Exception e){
+            LOG.error(e.getMessage());
+        }
         movieController.displayShowingSoonMovie();
     }
 }

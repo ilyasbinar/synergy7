@@ -8,4 +8,7 @@ public interface MovieService {
     List<Movie> getNowShowing();
     List<Movie> getShowingSoon();
 
+    Movie create(Movie movie);
+    Movie edit(Movie movie);
+
 }
