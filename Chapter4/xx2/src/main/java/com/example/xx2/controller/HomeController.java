@@ -1,11 +1,14 @@
 package com.example.xx2.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Controller;
+import org.springframework.util.StopWatch;
 
 @Component
 public class HomeController {
+    private final static Logger LOG = LoggerFactory.getLogger(HomeController.class);
+
     final
     MovieController movieController;
 
@@ -13,9 +16,17 @@ public class HomeController {
         this.movieController = movieController;
     }
 
-    public void home(){
+    public void home() throws InterruptedException {
+        StopWatch sw = new StopWatch();
+        sw.start();
+        Thread.sleep(2000);
+        //Logic Method
         movieController.displayShowingMovie();
-        home2();
+        //End of Logic Method
+        sw.stop();
+        if(sw.getTotalTimeSeconds()>1){
+            LOG.warn("Method running selama >1 detik: "+sw.getTotalTimeMillis());
+        }
     }
 
     public void home2(){
