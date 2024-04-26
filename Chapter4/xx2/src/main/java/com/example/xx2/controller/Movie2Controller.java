@@ -18,16 +18,11 @@ public class Movie2Controller {
 
     public void displayShowingMovie(){
         List<Movie> nowShowingMovies = movieService.getNowShowing();
-        nowShowingMovies.forEach(movie -> System.out.println(movie.getName()+"--"+movie.getPrice()));
+        nowShowingMovies.forEach(movie -> System.out.println(movie.getName()));
     }
 
     public void displayShowingSoonMovie(){
         log.info("Info");
         System.out.println("Tampikan film-film yang akan segera tayang");
-    }
-
-    public Movie create(Movie movie){
-        movieService.create(movie);
-        return null;
     }
 }

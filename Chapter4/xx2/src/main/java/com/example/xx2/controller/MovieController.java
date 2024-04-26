@@ -17,7 +17,8 @@ public class MovieController {
 
     public void displayShowingMovie(){
         List<Movie> nowShowingMovies = movieService.getNowShowing();
-        nowShowingMovies.forEach(movie -> System.out.println(movie.getName()+"--"+movie.getPrice()));
+        nowShowingMovies.forEach(movie -> System.out.println(movie.getName()));
+        createMovie();
     }
 
     public void displayShowingSoonMovie(){
@@ -25,12 +26,13 @@ public class MovieController {
         System.out.println("Tampikan film-film yang akan segera tayang");
     }
 
-    public Movie create(){
-        String name = movieView.getName();
-        Long price = movieView.getPrice();
+    public void createMovie(){
+        Movie theMovie = Movie.builder()
+                .name("Dune 2023")
+                .build();
+        theMovie = movieService.create(theMovie);
 
-        Movie movie = new Movie(name, price);
-        movieService.create(movie);
-        return null;
+        System.out.println(theMovie.getId());
     }
+
 }
