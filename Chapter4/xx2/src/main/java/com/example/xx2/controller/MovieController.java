@@ -29,7 +29,9 @@ public class MovieController {
     public void createMovie(){
         Movie theMovie = Movie.builder()
                 .name("Dune 2023")
+                .type(1)
                 .build();
+
         theMovie = movieService.create(theMovie);
 
         System.out.println(theMovie.getId());

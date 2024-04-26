@@ -13,12 +13,14 @@ import java.util.UUID;
 @NoArgsConstructor
 @Entity
 @Table(name = "movie")
-public class Movie {
+public class Movie{
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     String name; //poor thing
+
+    private int type;
 
     @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
     private List<CinemaMovie> cinemaMovies;

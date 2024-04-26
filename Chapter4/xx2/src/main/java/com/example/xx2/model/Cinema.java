@@ -13,7 +13,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @Entity
 @Table(name = "cinema")
-public class Cinema {
+public class Cinema{
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
