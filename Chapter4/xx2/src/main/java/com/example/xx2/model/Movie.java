@@ -20,8 +20,15 @@ public class Movie extends BaseModel{
 
     String name;
 
+    //1: Semua Umur
+    //2: BO
+    //3: Dewasa
     private int type;
 
     @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
     private List<CinemaMovie> cinemaMovies;
+
+    @OneToOne(mappedBy = "movie", cascade = CascadeType.ALL)
+    private MovieDetail movieDetail;
+
 }

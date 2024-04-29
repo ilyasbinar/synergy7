@@ -1,5 +1,6 @@
 package com.example.xx2.service;
 
+import com.example.xx2.model.Cinema;
 import com.example.xx2.model.Movie;
 import com.example.xx2.repository.MovieRepository;
 import lombok.extern.slf4j.Slf4j;
@@ -8,6 +9,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
 
 @Service
 @Slf4j
@@ -38,5 +41,34 @@ public class MovieServiceImpl implements MovieService{
     public Movie edit(Movie movie) {
         return null;
     }
+
+    @Override
+    public List<Movie> getAllMovie() {
+        return movieRepository.findAll();
+    }
+
+    @Override
+    public List<Movie> getAllSUMovie() {
+        return movieRepository.findByType(1);
+    }
+    @Override
+    public List<Movie> getAllBOMovie() {
+        return movieRepository.findByType(2);
+    }
+
+    @Override
+    public List<Movie> getAllKelapaGadingMovie() {
+        return movieRepository.findKelapaGadingMovie();
+    }
+
+    @Override
+    public Movie getMovie4() {
+        Optional<Movie> movie4Optional = movieRepository
+                .findById(UUID.fromString("74d30167-7cdd-4fbc-8057-534644ba7676"));
+
+        if(movie4Optional.isEmpty()) throw  new RuntimeException();
+        return movie4Optional.get();
+    }
+
 
 }

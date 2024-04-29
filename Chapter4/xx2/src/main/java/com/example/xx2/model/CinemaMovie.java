@@ -28,4 +28,6 @@ public class CinemaMovie extends BaseModel{
 
     private LocalDate startDate;
     private LocalDate endDate;
+
+    private boolean deleted;
 }
