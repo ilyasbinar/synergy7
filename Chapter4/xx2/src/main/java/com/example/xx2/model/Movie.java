@@ -13,12 +13,12 @@ import java.util.UUID;
 @NoArgsConstructor
 @Entity
 @Table(name = "movie")
-public class Movie{
+public class Movie extends BaseModel{
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    String name; //poor thing
+    String name;
 
     private int type;
 
