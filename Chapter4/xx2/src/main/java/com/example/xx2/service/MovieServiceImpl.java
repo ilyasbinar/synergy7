@@ -5,6 +5,9 @@ import com.example.xx2.model.Movie;
 import com.example.xx2.repository.MovieRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -70,5 +73,19 @@ public class MovieServiceImpl implements MovieService{
         return movie4Optional.get();
     }
 
+    @Override
+    public List<Movie> getAllMoviePageable(String movie, int page, int amount) {
+        Pageable pageable = PageRequest.of(page-1, amount, Sort.by("name"));
+        return movieRepository.findByNameLike(movie, pageable);
+    }
 
+    @Override
+    public void createByProcedure(String mi5, int type) {
+        movieRepository.movieInsertData(mi5, type);
+    }
+
+    @Override
+    public void deleteByProcedure(UUID uuid) {
+        movieRepository.movieDeleteData(uuid);
+    }
 }

@@ -4,6 +4,7 @@ import com.example.xx2.model.Cinema;
 import com.example.xx2.model.Movie;
 
 import java.util.List;
+import java.util.UUID;
 
 public interface MovieService {
     List<Movie> getNowShowing();
@@ -20,4 +21,10 @@ public interface MovieService {
     List<Movie> getAllKelapaGadingMovie();
 
     Movie getMovie4();
+
+    List<Movie> getAllMoviePageable(String movie, int page, int amount);
+
+    void createByProcedure(String mi5, int i);
+
+    void deleteByProcedure(UUID uuid);
 }

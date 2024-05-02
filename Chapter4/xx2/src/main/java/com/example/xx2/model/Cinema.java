@@ -2,6 +2,8 @@ package com.example.xx2.model;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.SQLDelete;
+import org.hibernate.annotations.SQLRestriction;
 
 import java.util.List;
 import java.util.UUID;
@@ -13,6 +15,8 @@ import java.util.UUID;
 @NoArgsConstructor
 @Entity
 @Table(name = "cinema")
+@SQLDelete(sql = "update cinema set deleted = true where id =?")
+@SQLRestriction("deleted = false")
 public class Cinema extends BaseModel{
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
@@ -20,6 +24,8 @@ public class Cinema extends BaseModel{
 
     private String name;
     private String address;
+
+    private boolean deleted = Boolean.FALSE;
 
     @OneToMany(mappedBy = "cinema", cascade = CascadeType.ALL)
     private List<CinemaMovie> cinemaMovies;

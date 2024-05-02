@@ -9,11 +9,16 @@ import java.util.List;
 public interface CinemaService {
     Cinema getCinemaKelapaGading();
 
+    List<Cinema> getCinamaList();
+
     List<CinemaMovie> getAllInCinema(Cinema cinemaKg);
 
     void updateAddress(Cinema cinema, String address);
 
     void deleteMovieInCinema(Movie movie4, Cinema cinemaKg);
 
-    void safeDeleteMovieInCinema(Movie movie, Cinema cinema);
+    void softDeleteMovieInCinema(Movie movie, Cinema cinema);
+
+
+    void deleteCinema(Cinema cinema);
 }

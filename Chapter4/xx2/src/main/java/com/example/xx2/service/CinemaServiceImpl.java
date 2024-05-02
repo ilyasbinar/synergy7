@@ -30,6 +30,11 @@ public class CinemaServiceImpl implements CinemaService {
     }
 
     @Override
+    public List<Cinema> getCinamaList() {
+        return cinemaRepository.findAll();
+    }
+
+    @Override
     public List<CinemaMovie> getAllInCinema(Cinema cinema) {
         return cinemaMovieRepository.findByCinema(cinema);
     }
@@ -47,9 +52,17 @@ public class CinemaServiceImpl implements CinemaService {
     }
 
     @Override
-    public void safeDeleteMovieInCinema(Movie movie, Cinema cinema) {
+    public void softDeleteMovieInCinema(Movie movie, Cinema cinema) {
         CinemaMovie cinemaMovie = cinemaMovieRepository.findByMovieAndCinema(movie, cinema);
+
+        //update
         cinemaMovie.setDeleted(true);
         cinemaMovieRepository.save(cinemaMovie);
+
+    }
+
+    @Override
+    public void deleteCinema(Cinema cinema) {
+        cinemaRepository.delete(cinema);
     }
 }
