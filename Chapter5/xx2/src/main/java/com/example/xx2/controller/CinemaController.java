@@ -39,9 +39,21 @@ public class CinemaController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
+    @GetMapping("challange")
+    public ResponseEntity<List<Cinema>> getAllChallange(){
+        return new ResponseEntity<>(cinemaService.getCinemaList(), HttpStatus.OK);
+    }
+
     @PostMapping
-    public Cinema add(@RequestBody Cinema cinema){
-        return cinemaService.create(cinema);
+    public  ResponseEntity<Map<String, Object>> add(@RequestBody Cinema cinema){
+        Map<String, Object> response = new HashMap<>();
+        response.put("status", "success");
+
+        Map<String, Object> data = new HashMap<>();
+        data.put("cinema", cinemaService.create(cinema));
+        response.put("data", data);
+
+        return new ResponseEntity<>(response, HttpStatus.CREATED);
     }
 
     @PutMapping("{id}")
