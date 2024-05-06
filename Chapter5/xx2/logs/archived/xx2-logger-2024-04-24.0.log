@@ -1,0 +1,384 @@
+2024-04-24 20:36:28,671 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 11012 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-24 20:36:28,675 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-24 20:36:29,608 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-24 20:36:29,631 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2024-04-24 20:36:30,248 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-24 20:36:30,264 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-24 20:36:30,266 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-24 20:36:30,266 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-24 20:36:30,324 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-24 20:36:30,324 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1583 ms
+2024-04-24 20:36:30,483 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-24 20:36:30,598 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4cdba2ed
+2024-04-24 20:36:30,600 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-24 20:36:30,652 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-24 20:36:30,742 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-24 20:36:30,783 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-24 20:36:31,058 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-24 20:36:31,488 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-24 20:36:31,493 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 20:36:31,556 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-24 20:36:32,040 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-24 20:36:32,059 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-24 20:36:32,074 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 4.357 seconds (process running for 5.766)
+2024-04-24 20:36:32,078 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:36:32,079 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:36:32,079 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:38:01,214 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 20:38:01,219 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-24 20:38:01,225 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-24 20:38:05,282 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 11271 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-24 20:38:05,286 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-24 20:38:06,037 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-24 20:38:06,059 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2024-04-24 20:38:06,631 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-24 20:38:06,646 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-24 20:38:06,648 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-24 20:38:06,648 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-24 20:38:06,705 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-24 20:38:06,706 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1357 ms
+2024-04-24 20:38:06,878 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-24 20:38:07,002 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@562919fe
+2024-04-24 20:38:07,004 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-24 20:38:07,056 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-24 20:38:07,130 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-24 20:38:07,182 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-24 20:38:07,465 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-24 20:38:07,910 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-24 20:38:07,917 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 20:38:07,979 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-24 20:38:08,474 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-24 20:38:08,490 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-24 20:38:08,506 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 4.022 seconds (process running for 5.043)
+2024-04-24 20:38:08,509 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:38:08,509 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:38:08,509 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:48,738 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 20:39:48,740 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-24 20:39:48,746 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-24 20:39:53,807 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 11521 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-24 20:39:53,810 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-24 20:39:54,575 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-24 20:39:54,601 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2024-04-24 20:39:55,205 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-24 20:39:55,225 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-24 20:39:55,229 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-24 20:39:55,230 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-24 20:39:55,288 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-24 20:39:55,289 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1408 ms
+2024-04-24 20:39:55,462 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-24 20:39:55,568 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63fd4dda
+2024-04-24 20:39:55,570 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-24 20:39:55,617 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-24 20:39:55,688 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-24 20:39:55,748 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-24 20:39:56,025 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-24 20:39:56,464 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-24 20:39:56,470 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 20:39:56,528 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-24 20:39:57,004 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-24 20:39:57,020 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-24 20:39:57,039 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 4.043 seconds (process running for 5.035)
+2024-04-24 20:39:57,043 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,043 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,043 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,043 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,043 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,044 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,044 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,044 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,044 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,044 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,044 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,044 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,044 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,045 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,045 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,045 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,045 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,045 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,045 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,045 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,045 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,045 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,045 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,046 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,046 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,046 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,046 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,046 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,046 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,046 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,046 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,046 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,047 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,047 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,047 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,047 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,047 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,047 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,047 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,047 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,048 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,048 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,048 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,049 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,049 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,049 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,049 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,049 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,049 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,050 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,050 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,050 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,050 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,050 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,050 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,050 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,051 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,051 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,051 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,051 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,051 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,051 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,051 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,051 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,051 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,051 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,051 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,052 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,052 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,052 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,052 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,052 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,052 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,052 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,052 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,053 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,053 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,053 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,053 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,053 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,053 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,053 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,053 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,053 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,054 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,054 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,054 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,054 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,054 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,054 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,054 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,055 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,055 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,055 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,055 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,055 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,055 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,056 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,056 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,056 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,056 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,056 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,057 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,057 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,058 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,058 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,059 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,059 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,059 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,059 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,059 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,059 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,059 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,059 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,060 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,060 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,060 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,060 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,060 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,060 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,060 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,060 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,060 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,060 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,060 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,060 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,060 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,061 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,061 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,061 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,061 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,061 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,061 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,061 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,061 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,061 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,061 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,061 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,061 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,061 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,062 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,062 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,062 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,062 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,062 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,062 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,062 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,062 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,062 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,062 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,062 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,062 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,062 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,062 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,063 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,063 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,063 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,063 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,063 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,063 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,063 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,063 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,063 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,063 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,063 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,063 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,063 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,063 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,063 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,063 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,063 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,064 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,064 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,064 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,064 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,064 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,064 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,064 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,065 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,065 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,065 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,065 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,065 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,065 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,065 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,065 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,065 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,065 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,065 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,066 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,066 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,066 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,066 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,066 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,066 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,066 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,066 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,066 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,066 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,066 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,067 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,067 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,067 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,067 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,067 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,067 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,067 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,067 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,067 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,067 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,067 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,067 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,067 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,067 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,068 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,068 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,068 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,068 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,068 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,068 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,068 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,068 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,068 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,069 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,069 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,070 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,070 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,070 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,070 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,070 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,070 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,070 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,071 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,071 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,071 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,072 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,072 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,072 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,072 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,072 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,073 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,073 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,073 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,073 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,073 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,073 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,073 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,073 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,073 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,074 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,074 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,074 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,074 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,074 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,074 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,074 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,074 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,074 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,074 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,074 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,074 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,074 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,074 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,075 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,075 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,075 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,075 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,075 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,075 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,075 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,075 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,075 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,075 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,076 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,076 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,076 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,076 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,076 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,076 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,076 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,076 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,076 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,076 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,077 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,077 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,077 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,077 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,077 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,077 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,077 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,077 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,077 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,077 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,077 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,077 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,077 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,077 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,077 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,078 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,078 ERROR c.e.x.c.HomeController [main] Error
+2024-04-24 20:39:57,078 INFO c.e.x.c.HomeController [main] Info
+2024-04-24 20:39:57,078 WARN c.e.x.c.HomeController [main] Warn
+2024-04-24 20:39:57,078 ERROR c.e.x.c.HomeController [main] Error

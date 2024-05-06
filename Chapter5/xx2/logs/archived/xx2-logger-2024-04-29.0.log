@@ -1,0 +1,823 @@
+2024-04-29 17:00:29,068 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 3491 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 17:00:29,074 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 17:00:30,294 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 17:00:30,404 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 97 ms. Found 3 JPA repository interfaces.
+2024-04-29 17:00:31,331 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 17:00:31,354 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 17:00:31,357 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 17:00:31,357 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 17:00:31,441 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 17:00:31,442 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2263 ms
+2024-04-29 17:00:31,742 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 17:00:31,845 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 17:00:31,895 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 17:00:32,349 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 17:00:32,397 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 17:00:32,589 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47eaf55c
+2024-04-29 17:00:32,592 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 17:00:32,659 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 17:00:34,325 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 17:00:34,502 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 17:00:35,013 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 17:00:35,572 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 17:00:35,591 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 17:00:35,605 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 7.534 seconds (process running for 10.064)
+2024-04-29 17:00:35,705 INFO c.e.x.s.MovieServiceImpl [main] Dune 2023 berhasil di tambahkan
+2024-04-29 17:01:12,409 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 17:01:12,412 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 17:01:12,416 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 17:01:17,255 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 3795 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 17:01:17,257 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 17:01:17,857 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 17:01:17,915 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2024-04-29 17:01:18,384 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 17:01:18,394 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 17:01:18,396 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 17:01:18,396 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 17:01:18,439 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 17:01:18,440 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1140 ms
+2024-04-29 17:01:18,588 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 17:01:18,648 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 17:01:18,686 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 17:01:18,890 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 17:01:18,909 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 17:01:18,990 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1a10c47e
+2024-04-29 17:01:18,991 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 17:01:19,013 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 17:01:19,852 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 17:01:19,911 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 17:01:20,161 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 17:01:20,610 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 17:01:20,623 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 17:01:20,635 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 3.972 seconds (process running for 4.813)
+2024-04-29 17:01:20,733 INFO c.e.x.s.MovieServiceImpl [main] Dune 2023 berhasil di tambahkan
+2024-04-29 17:03:00,955 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 17:03:00,957 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 17:03:00,962 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 20:00:56,995 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 11252 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 20:00:56,999 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 20:00:58,012 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 20:00:58,106 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+2024-04-29 20:00:58,825 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 20:00:58,840 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:00:58,841 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 20:00:58,842 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 20:00:58,900 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 20:00:58,901 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1841 ms
+2024-04-29 20:00:59,115 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 20:00:59,187 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 20:00:59,222 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 20:00:59,513 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 20:00:59,543 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 20:00:59,653 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@754de353
+2024-04-29 20:00:59,656 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 20:00:59,695 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 20:01:00,947 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 20:01:01,019 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-04-29 20:01:01,019 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] constraint "uk_csf2p6fwtbx5tslo9mfd0qwcx" of relation "movie_detail" does not exist, skipping
+2024-04-29 20:01:01,064 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:01:01,431 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 20:01:01,927 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:01:01,946 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 20:01:01,964 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.849 seconds (process running for 7.089)
+2024-04-29 20:09:30,972 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:09:30,975 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 20:09:30,979 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 20:09:36,572 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 12034 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 20:09:36,575 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 20:09:37,345 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 20:09:37,420 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2024-04-29 20:09:38,005 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 20:09:38,018 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:09:38,020 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 20:09:38,020 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 20:09:38,072 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 20:09:38,073 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1440 ms
+2024-04-29 20:09:38,329 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 20:09:38,388 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 20:09:38,432 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 20:09:38,691 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 20:09:38,720 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 20:09:38,820 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13cc31ae
+2024-04-29 20:09:38,822 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 20:09:38,851 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 20:09:40,067 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 20:09:40,175 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:09:40,526 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 20:09:41,009 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:09:41,027 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 20:09:41,043 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.244 seconds (process running for 6.262)
+2024-04-29 20:15:43,226 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:15:43,229 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 20:15:43,235 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 20:15:49,375 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 12444 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 20:15:49,381 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 20:15:50,400 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 20:15:50,491 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+2024-04-29 20:15:51,094 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 20:15:51,109 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:15:51,112 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 20:15:51,113 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 20:15:51,171 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 20:15:51,172 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1659 ms
+2024-04-29 20:15:51,392 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 20:15:51,463 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 20:15:51,502 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 20:15:51,788 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 20:15:51,816 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 20:15:51,918 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c0798bd
+2024-04-29 20:15:51,920 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 20:15:51,948 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 20:15:53,135 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 20:15:53,249 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:15:53,724 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 20:15:54,191 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:15:54,212 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 20:15:54,230 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.862 seconds (process running for 6.923)
+2024-04-29 20:29:28,243 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:29:28,247 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 20:29:28,253 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 20:29:33,696 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 13257 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 20:29:33,701 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 20:29:34,526 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 20:29:34,608 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
+2024-04-29 20:29:35,234 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 20:29:35,248 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:29:35,251 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 20:29:35,252 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 20:29:35,306 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 20:29:35,307 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1546 ms
+2024-04-29 20:29:35,488 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 20:29:35,557 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 20:29:35,600 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 20:29:35,868 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 20:29:35,898 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 20:29:35,995 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2712e8f4
+2024-04-29 20:29:35,997 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 20:29:36,033 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 20:29:37,151 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 20:29:37,244 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:29:37,544 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-29 20:29:37,681 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 20:29:38,157 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:29:38,175 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 20:29:38,189 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.274 seconds (process running for 6.296)
+2024-04-29 20:46:15,183 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:46:15,185 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 20:46:15,188 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 20:46:20,589 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 14302 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 20:46:20,592 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 20:46:21,370 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 20:46:21,441 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
+2024-04-29 20:46:22,028 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 20:46:22,046 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:46:22,049 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 20:46:22,050 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 20:46:22,111 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 20:46:22,112 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1463 ms
+2024-04-29 20:46:22,305 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 20:46:22,358 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 20:46:22,404 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 20:46:22,678 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 20:46:22,707 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 20:46:22,813 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1a10c47e
+2024-04-29 20:46:22,815 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 20:46:22,845 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 20:46:23,970 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 20:46:24,069 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:46:24,425 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-29 20:46:24,437 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController' defined in file [/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes/com/example/xx2/controller/HomeController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'movieController': Unsatisfied dependency expressed through field 'movieService': Error creating bean with name 'movieServiceImpl': Unsatisfied dependency expressed through field 'movieRepository': Error creating bean with name 'movieRepository' defined in com.example.xx2.repository.MovieRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); Reason: Failed to create query for method public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); No property 'cinema' found for type 'Movie'
+2024-04-29 20:46:24,437 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:46:24,439 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-04-29 20:46:24,443 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-04-29 20:46:24,446 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2024-04-29 20:46:24,464 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-29 20:46:24,500 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController' defined in file [/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes/com/example/xx2/controller/HomeController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'movieController': Unsatisfied dependency expressed through field 'movieService': Error creating bean with name 'movieServiceImpl': Unsatisfied dependency expressed through field 'movieRepository': Error creating bean with name 'movieRepository' defined in com.example.xx2.repository.MovieRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); Reason: Failed to create query for method public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); No property 'cinema' found for type 'Movie'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.xx2.Xx2Application.main(Xx2Application.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'movieController': Unsatisfied dependency expressed through field 'movieService': Error creating bean with name 'movieServiceImpl': Unsatisfied dependency expressed through field 'movieRepository': Error creating bean with name 'movieRepository' defined in com.example.xx2.repository.MovieRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); Reason: Failed to create query for method public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); No property 'cinema' found for type 'Movie'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'movieServiceImpl': Unsatisfied dependency expressed through field 'movieRepository': Error creating bean with name 'movieRepository' defined in com.example.xx2.repository.MovieRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); Reason: Failed to create query for method public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); No property 'cinema' found for type 'Movie'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 34 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'movieRepository' defined in com.example.xx2.repository.MovieRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); Reason: Failed to create query for method public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); No property 'cinema' found for type 'Movie'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 48 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); Reason: Failed to create query for method public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); No property 'cinema' found for type 'Movie'
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:115)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:99)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:88)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:88)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:357)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:279)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135)
+	at org.springframework.data.util.Lazy.get(Lazy.java:113)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:285)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 58 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.xx2.repository.MovieRepository.findByCinema(com.example.xx2.model.Cinema); No property 'cinema' found for type 'Movie'
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:106)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:124)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:258)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:95)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:111)
+	... 70 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property 'cinema' found for type 'Movie'
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:443)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:419)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:372)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:354)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:332)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:259)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:260)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:389)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:390)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:103)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:100)
+	... 74 common frames omitted
+2024-04-29 20:48:13,349 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 14560 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 20:48:13,354 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 20:48:14,185 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 20:48:14,256 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2024-04-29 20:48:14,974 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 20:48:14,986 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:48:14,988 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 20:48:14,989 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 20:48:15,057 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 20:48:15,057 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1647 ms
+2024-04-29 20:48:15,267 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 20:48:15,344 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 20:48:15,380 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 20:48:15,683 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 20:48:15,713 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 20:48:15,816 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74a85515
+2024-04-29 20:48:15,819 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 20:48:15,852 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 20:48:17,001 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 20:48:17,122 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:48:17,507 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-29 20:48:17,626 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 20:48:18,133 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:48:18,148 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 20:48:18,161 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.641 seconds (process running for 6.63)
+2024-04-29 20:52:01,617 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:52:01,620 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 20:52:01,625 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 20:52:07,036 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 14879 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 20:52:07,040 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 20:52:07,817 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 20:52:07,890 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+2024-04-29 20:52:08,523 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 20:52:08,544 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:52:08,549 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 20:52:08,550 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 20:52:08,614 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 20:52:08,615 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1509 ms
+2024-04-29 20:52:08,820 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 20:52:08,890 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 20:52:08,931 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 20:52:09,247 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 20:52:09,276 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 20:52:09,375 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@44b9c7c4
+2024-04-29 20:52:09,378 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 20:52:09,409 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 20:52:10,623 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 20:52:10,731 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 20:52:11,108 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-29 20:52:11,205 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 20:52:11,674 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 20:52:11,690 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 20:52:11,707 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.468 seconds (process running for 6.494)
+2024-04-29 21:01:06,474 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:01:06,476 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 21:01:06,480 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 21:01:19,580 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 15539 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 21:01:19,584 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 21:01:20,432 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 21:01:20,511 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2024-04-29 21:01:21,130 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 21:01:21,144 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:01:21,146 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 21:01:21,147 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 21:01:21,204 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 21:01:21,204 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1566 ms
+2024-04-29 21:01:21,395 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 21:01:21,447 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 21:01:21,484 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 21:01:21,772 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 21:01:21,802 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 21:01:21,912 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@ee2ae9a
+2024-04-29 21:01:21,915 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 21:01:21,947 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 21:01:23,151 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 21:01:23,248 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:01:23,622 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-29 21:01:23,727 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 21:01:24,248 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:01:24,268 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 21:01:24,290 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.537 seconds (process running for 6.481)
+2024-04-29 21:04:10,941 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:04:10,944 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 21:04:10,949 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 21:04:15,525 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 15784 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 21:04:15,529 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 21:04:16,306 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 21:04:16,378 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2024-04-29 21:04:17,001 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 21:04:17,014 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:04:17,016 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 21:04:17,016 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 21:04:17,082 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 21:04:17,083 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1481 ms
+2024-04-29 21:04:17,279 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 21:04:17,335 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 21:04:17,370 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 21:04:17,649 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 21:04:17,678 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 21:04:17,785 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e3252
+2024-04-29 21:04:17,786 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 21:04:17,823 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 21:04:19,164 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 21:04:19,214 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [main] GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists cinema_movie add column deleted boolean not null" via JDBC [ERROR: column "deleted" of relation "cinema_movie" contains null values]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists cinema_movie add column deleted boolean not null" via JDBC [ERROR: column "deleted" of relation "cinema_movie" contains null values]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:574)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:514)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:333)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:232)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.xx2.Xx2Application.main(Xx2Application.java:14)
+Caused by: org.postgresql.util.PSQLException: ERROR: column "deleted" of relation "cinema_movie" contains null values
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 38 common frames omitted
+2024-04-29 21:04:19,268 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:04:19,663 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-29 21:04:19,759 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 21:04:20,207 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:04:20,222 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 21:04:20,236 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.479 seconds (process running for 6.457)
+2024-04-29 21:04:20,335 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 42703
+2024-04-29 21:04:20,336 ERROR o.h.e.j.s.SqlExceptionHelper [main] ERROR: column cm1_0.deleted does not exist
+  Position: 137
+2024-04-29 21:04:20,338 INFO o.h.e.i.DefaultLoadEventListener [main] HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [select c1_0.id,c1_0.address,c1_0.created_date,c1_0.deleted_date,c1_0.name,c1_0.updated_date,cm1_0.id_cinema,cm1_0.id,cm1_0.created_date,cm1_0.deleted,cm1_0.deleted_date,cm1_0.end_date,m1_0.id,m1_0.created_date,m1_0.deleted_date,md1_0.id,md1_0.created_date,md1_0.deleted_date,md1_0.description,md1_0.updated_date,m1_0.name,m1_0.type,m1_0.updated_date,cm1_0.start_date,cm1_0.updated_date from cinema c1_0 left join cinema_movie cm1_0 on c1_0.id=cm1_0.id_cinema left join movie m1_0 on m1_0.id=cm1_0.id_movie left join movie_detail md1_0 on m1_0.id=md1_0.id_movie where c1_0.id=?] [ERROR: column cm1_0.deleted does not exist
+  Position: 137] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:91)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:265)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:167)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:218)
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:98)
+	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19)
+	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:66)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:180)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:209)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:83)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:76)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:65)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:145)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:117)
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.load(SingleIdEntityLoaderStandardImpl.java:75)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:3748)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:3737)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:604)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromCacheOrDatasource(DefaultLoadEventListener.java:590)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:560)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:544)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:207)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:290)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:242)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:111)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:68)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1222)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1210)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:209)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:160)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:112)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1023)
+	at org.hibernate.event.internal.DefaultMergeEventListener.lambda$entityIsDetached$0(DefaultMergeEventListener.java:407)
+	at org.hibernate.engine.spi.LoadQueryInfluencers.fromInternalFetchProfile(LoadQueryInfluencers.java:99)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:405)
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:208)
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:146)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:130)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:84)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:847)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:833)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy126.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:621)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy132.save(Unknown Source)
+	at com.example.xx2.service.CinemaServiceImpl.updateAddress(CinemaServiceImpl.java:40)
+	at com.example.xx2.controller.MovieController.updateKelapaGadingAddress(MovieController.java:47)
+	at com.example.xx2.controller.MovieController.displayShowingMovie(MovieController.java:28)
+	at com.example.xx2.controller.HomeController.home(HomeController.java:24)
+	at com.example.xx2.Xx2Application.main(Xx2Application.java:15)
+Caused by: org.postgresql.util.PSQLException: ERROR: column cm1_0.deleted does not exist
+  Position: 137
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:246)
+	... 81 common frames omitted
+2024-04-29 21:05:04,327 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:05:04,329 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 21:05:04,333 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 21:05:09,548 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 15959 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 21:05:09,551 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 21:05:10,337 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 21:05:10,410 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2024-04-29 21:05:11,013 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 21:05:11,028 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:05:11,030 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 21:05:11,030 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 21:05:11,089 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 21:05:11,090 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1475 ms
+2024-04-29 21:05:11,289 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 21:05:11,359 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 21:05:11,395 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 21:05:11,678 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 21:05:11,711 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 21:05:11,811 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1fb6b8fb
+2024-04-29 21:05:11,814 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 21:05:11,844 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 21:05:13,075 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 21:05:13,200 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:05:13,573 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-29 21:05:13,674 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 21:05:14,116 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:05:14,133 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 21:05:14,150 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.389 seconds (process running for 6.282)
+2024-04-29 21:05:38,849 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:05:38,852 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 21:05:38,857 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 21:05:43,481 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 16129 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 21:05:43,484 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 21:05:44,247 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 21:05:44,321 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
+2024-04-29 21:05:44,915 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 21:05:44,927 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:05:44,930 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 21:05:44,930 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 21:05:44,981 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 21:05:44,982 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1440 ms
+2024-04-29 21:05:45,183 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 21:05:45,252 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 21:05:45,292 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 21:05:45,571 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 21:05:45,604 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 21:05:45,705 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74a85515
+2024-04-29 21:05:45,707 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 21:05:45,737 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 21:05:46,866 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 21:05:46,960 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:05:47,325 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-29 21:05:47,419 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 21:05:47,856 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:05:47,870 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 21:05:47,884 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.16 seconds (process running for 6.108)
+2024-04-29 21:06:24,756 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:06:24,759 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 21:06:24,764 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 21:06:29,495 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 16294 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 21:06:29,499 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 21:06:30,330 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 21:06:30,401 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
+2024-04-29 21:06:31,071 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 21:06:31,086 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:06:31,089 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 21:06:31,090 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 21:06:31,153 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 21:06:31,154 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1583 ms
+2024-04-29 21:06:31,369 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 21:06:31,436 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 21:06:31,476 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 21:06:31,775 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 21:06:31,808 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 21:06:31,916 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d49e8c6
+2024-04-29 21:06:31,918 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 21:06:31,953 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 21:06:33,150 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 21:06:33,251 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:06:33,621 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-29 21:06:33,727 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 21:06:34,182 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:06:34,199 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 21:06:34,218 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.54 seconds (process running for 6.504)
+2024-04-29 21:07:16,922 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:07:16,925 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 21:07:16,930 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 21:07:22,308 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 16472 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 21:07:22,312 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 21:07:23,249 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 21:07:23,325 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2024-04-29 21:07:23,978 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 21:07:23,991 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:07:23,993 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 21:07:23,994 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 21:07:24,053 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 21:07:24,054 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1685 ms
+2024-04-29 21:07:24,252 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 21:07:24,310 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 21:07:24,353 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 21:07:24,630 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 21:07:24,660 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 21:07:24,761 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@77cddc0c
+2024-04-29 21:07:24,763 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 21:07:24,793 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 21:07:25,945 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 21:07:26,048 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:07:26,400 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-29 21:07:26,527 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 21:07:27,023 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:07:27,043 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 21:07:27,064 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.615 seconds (process running for 6.553)
+2024-04-29 21:11:28,057 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:11:28,061 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-29 21:11:28,067 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-29 21:11:40,175 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 16865 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-29 21:11:40,179 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-29 21:11:40,951 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-29 21:11:41,025 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2024-04-29 21:11:41,661 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-29 21:11:41,673 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:11:41,675 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-29 21:11:41,675 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-29 21:11:41,728 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-29 21:11:41,728 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1495 ms
+2024-04-29 21:11:41,923 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-29 21:11:41,982 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-29 21:11:42,032 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-29 21:11:42,316 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-29 21:11:42,346 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-29 21:11:42,442 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f39269d
+2024-04-29 21:11:42,445 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-29 21:11:42,476 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-29 21:11:43,797 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-29 21:11:43,906 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-29 21:11:44,268 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-29 21:11:44,367 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-29 21:11:44,816 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-29 21:11:44,831 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-29 21:11:44,847 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 5.476 seconds (process running for 6.386)
+2024-04-29 21:11:44,965 INFO o.h.e.i.DefaultLoadEventListener [main] HHH000327: Error performing load command
+org.hibernate.PropertyAccessException: Null value was assigned to a property [class com.example.xx2.model.CinemaMovie.deleted] of primitive type: 'com.example.xx2.model.CinemaMovie.deleted' (setter)
+	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:63)
+	at org.hibernate.persister.entity.AbstractEntityPersister.setPropertyValues(AbstractEntityPersister.java:4476)
+	at org.hibernate.sql.results.graph.entity.AbstractEntityInitializer.initializeEntityInstance(AbstractEntityInitializer.java:853)
+	at org.hibernate.sql.results.graph.entity.AbstractEntityInitializer.initializeEntity(AbstractEntityInitializer.java:813)
+	at org.hibernate.sql.results.graph.entity.AbstractEntityInitializer.initializeInstance(AbstractEntityInitializer.java:799)
+	at org.hibernate.sql.results.internal.InitializersList.initializeInstance(InitializersList.java:70)
+	at org.hibernate.sql.results.internal.StandardRowReader.coordinateInitializers(StandardRowReader.java:109)
+	at org.hibernate.sql.results.internal.StandardRowReader.readRow(StandardRowReader.java:86)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:181)
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:209)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:83)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:76)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:65)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:145)
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.load(SingleIdLoadPlan.java:117)
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.load(SingleIdEntityLoaderStandardImpl.java:75)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:3748)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:3737)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:604)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromCacheOrDatasource(DefaultLoadEventListener.java:590)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:560)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:544)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:207)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:290)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:242)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:111)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:68)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1222)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1210)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:209)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:160)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:112)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:149)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1023)
+	at org.hibernate.event.internal.DefaultMergeEventListener.lambda$entityIsDetached$0(DefaultMergeEventListener.java:407)
+	at org.hibernate.engine.spi.LoadQueryInfluencers.fromInternalFetchProfile(LoadQueryInfluencers.java:99)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:405)
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:208)
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:146)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:130)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:84)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:847)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:833)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy126.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:621)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy132.save(Unknown Source)
+	at com.example.xx2.service.CinemaServiceImpl.updateAddress(CinemaServiceImpl.java:40)
+	at com.example.xx2.controller.MovieController.updateKelapaGadingAddress(MovieController.java:48)
+	at com.example.xx2.controller.MovieController.displayShowingMovie(MovieController.java:28)
+	at com.example.xx2.controller.HomeController.home(HomeController.java:24)
+	at com.example.xx2.Xx2Application.main(Xx2Application.java:15)
+Caused by: java.lang.IllegalArgumentException: Can not set boolean field com.example.xx2.model.CinemaMovie.deleted to null value
+	at java.base/jdk.internal.reflect.FieldAccessorImpl.throwSetIllegalArgumentException(FieldAccessorImpl.java:228)
+	at java.base/jdk.internal.reflect.FieldAccessorImpl.throwSetIllegalArgumentException(FieldAccessorImpl.java:232)
+	at java.base/jdk.internal.reflect.MethodHandleBooleanFieldAccessorImpl.set(MethodHandleBooleanFieldAccessorImpl.java:111)
+	at java.base/java.lang.reflect.Field.set(Field.java:834)
+	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:57)
+	... 83 common frames omitted

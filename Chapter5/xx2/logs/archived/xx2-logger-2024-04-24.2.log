@@ -1,0 +1,53 @@
+2024-04-24 21:13:11,837 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:13:11,841 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-24 21:13:11,848 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-24 21:13:20,380 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 13382 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-24 21:13:20,383 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-24 21:13:21,203 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-24 21:13:21,228 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2024-04-24 21:13:21,837 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-24 21:13:21,851 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-24 21:13:21,854 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-24 21:13:21,855 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-24 21:13:21,909 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-24 21:13:21,909 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1468 ms
+2024-04-24 21:13:22,077 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-24 21:13:22,191 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@64502326
+2024-04-24 21:13:22,193 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-24 21:13:22,245 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-24 21:13:22,327 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-24 21:13:22,387 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-24 21:13:22,695 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-24 21:13:23,190 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-24 21:13:23,198 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:13:23,285 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-24 21:13:23,841 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-24 21:13:23,862 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-24 21:13:23,884 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 4.397 seconds (process running for 5.456)
+2024-04-24 21:15:33,203 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:15:33,207 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-24 21:15:33,216 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-24 21:15:40,491 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 20.0.2.1 with PID 13675 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter4/xx2)
+2024-04-24 21:15:40,494 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-24 21:15:41,369 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-24 21:15:41,390 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2024-04-24 21:15:41,960 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-04-24 21:15:41,972 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-24 21:15:41,975 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-24 21:15:41,975 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-24 21:15:42,040 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-24 21:15:42,040 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1493 ms
+2024-04-24 21:15:42,210 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-24 21:15:42,337 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55c57422
+2024-04-24 21:15:42,340 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-24 21:15:42,389 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-24 21:15:42,453 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-24 21:15:42,500 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-24 21:15:42,788 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-24 21:15:43,206 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-24 21:15:43,214 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:15:43,290 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-24 21:15:43,737 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-04-24 21:15:43,759 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-04-24 21:15:43,776 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 4.175 seconds (process running for 5.362)
+2024-04-24 21:15:45,782 WARN c.e.x.c.HomeController [main] Method running selama >1 detik: 2001
