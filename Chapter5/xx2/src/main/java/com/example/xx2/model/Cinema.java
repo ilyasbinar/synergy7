@@ -1,5 +1,7 @@
 package com.example.xx2.model;
 
+import com.example.xx2.payload.CinemaDto;
+import com.example.xx2.payload.CinemaUpdateAddressRequestDto;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;

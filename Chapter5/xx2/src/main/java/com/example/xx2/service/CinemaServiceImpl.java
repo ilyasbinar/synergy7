@@ -3,8 +3,11 @@ package com.example.xx2.service;
 import com.example.xx2.model.Cinema;
 import com.example.xx2.model.CinemaMovie;
 import com.example.xx2.model.Movie;
+import com.example.xx2.payload.CinemaCreateRequestDto;
+import com.example.xx2.payload.CinemaDto;
 import com.example.xx2.repository.CinemaMovieRepository;
 import com.example.xx2.repository.CinemaRepository;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +19,9 @@ import java.util.UUID;
 public class CinemaServiceImpl implements CinemaService {
     @Autowired
     CinemaRepository cinemaRepository;
+
+    @Autowired
+    ModelMapper modelMapper;
 
     @Autowired
     CinemaMovieRepository cinemaMovieRepository;
@@ -30,7 +36,7 @@ public class CinemaServiceImpl implements CinemaService {
     }
 
     @Override
-    public List<Cinema> getCinemaList() {
+    public List<Cinema> getAll() {
         return cinemaRepository.findAll();
     }
 
@@ -67,8 +73,13 @@ public class CinemaServiceImpl implements CinemaService {
     }
 
     @Override
-    public Cinema create(Cinema cinema) {
-        return cinemaRepository.save(cinema);
+    public CinemaDto create(CinemaCreateRequestDto cinemaCreateRequestDto) {
+        Cinema cinema = new Cinema();
+        cinema.setName(cinemaCreateRequestDto.getName());
+        cinema.setAddress(cinemaCreateRequestDto.getAddress());
+        cinemaRepository.save(cinema);
+
+        return modelMapper.map(cinema, CinemaDto.class);
     }
 
     @Override

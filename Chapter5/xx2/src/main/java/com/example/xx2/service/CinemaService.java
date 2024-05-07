@@ -3,6 +3,8 @@ package com.example.xx2.service;
 import com.example.xx2.model.Cinema;
 import com.example.xx2.model.CinemaMovie;
 import com.example.xx2.model.Movie;
+import com.example.xx2.payload.CinemaCreateRequestDto;
+import com.example.xx2.payload.CinemaDto;
 
 import java.util.List;
 import java.util.UUID;
@@ -10,7 +12,7 @@ import java.util.UUID;
 public interface CinemaService {
     Cinema getCinemaKelapaGading();
 
-    List<Cinema> getCinemaList();
+    List<Cinema> getAll();
 
     List<CinemaMovie> getAllInCinema(Cinema cinemaKg);
 
@@ -23,7 +25,7 @@ public interface CinemaService {
 
     void deleteCinema(Cinema cinema);
 
-    Cinema create(Cinema cinema);
+    CinemaDto create(CinemaCreateRequestDto cinemaCreateRequestDto);
 
     Cinema update(UUID id, Cinema cinema);
 }
