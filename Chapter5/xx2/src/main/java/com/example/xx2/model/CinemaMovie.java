@@ -29,6 +29,10 @@ public class CinemaMovie extends BaseModel{
     private LocalDate startDate;
     private LocalDate endDate;
 
+    private Long price;
+
+    private int stock;
+
     private boolean deleted; //true atau false
     private LocalDate deletedAt; //null atau ada nilai
 }
