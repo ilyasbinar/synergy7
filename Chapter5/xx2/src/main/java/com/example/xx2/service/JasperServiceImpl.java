@@ -37,6 +37,8 @@ public class JasperServiceImpl implements JasperService {
 
         Map<String, Object> parameters = new HashMap<>();
         parameters.put("total", String.valueOf(movieList.size()));
+        parameters.put("merchantName", String.valueOf(movieList.size()));
+        parameters.put("dateTime", String.valueOf(movieList.size()));
 
         JasperPrint jasperPrint;
         byte[] reportContent;

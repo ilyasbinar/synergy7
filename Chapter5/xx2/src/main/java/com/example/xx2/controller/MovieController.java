@@ -4,6 +4,7 @@ import com.example.xx2.model.Cinema;
 import com.example.xx2.model.Movie;
 import com.example.xx2.payload.CinemaCreateRequestDto;
 import com.example.xx2.payload.CinemaDto;
+import com.example.xx2.payload.MovieListReportDto;
 import com.example.xx2.service.CinemaService;
 import com.example.xx2.service.JasperService;
 import com.example.xx2.service.MovieService;
@@ -35,6 +36,7 @@ public class MovieController {
 
         //Dapatkan list of movie
         List<Movie> movieList = movieService.getAllMovie();
+//        List<MovieListReportDto> movieListReportDtoList = MovieListReportDto.fromEntity(movieList);
 
         //convert list of movie menjadi array byte[] menggunakan jasperService
         byte[] reportContent = jasperService.getMovieListReport(movieList, format);

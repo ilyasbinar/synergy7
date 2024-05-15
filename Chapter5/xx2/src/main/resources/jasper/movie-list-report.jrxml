@@ -10,6 +10,14 @@
 				<reportElement x="200" y="0" width="200" height="30" uuid="65a2b3e1-8a54-47e6-ac5a-42e69ce55ef7"/>
 				<textFieldExpression><![CDATA[$P{total}]]></textFieldExpression>
 			</textField>
+			<textField>
+				<reportElement x="200" y="0" width="200" height="30" uuid="65a2b3e1-8a54-47e6-ac5a-42e69ce55ef7"/>
+				<textFieldExpression><![CDATA[$P{merchantName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="0" width="200" height="30" uuid="65a2b3e1-8a54-47e6-ac5a-42e69ce55ef7"/>
+				<textFieldExpression><![CDATA[$P{dateTime}]]></textFieldExpression>
+			</textField>
 		</band>
 	</title>
 	<detail>
