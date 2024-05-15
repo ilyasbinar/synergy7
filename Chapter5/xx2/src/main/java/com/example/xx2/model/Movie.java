@@ -37,4 +37,11 @@ public class Movie extends BaseModel{
     @OneToOne(mappedBy = "movie", cascade = CascadeType.ALL)
     private MovieDetail movieDetail;
 
+    public String getTypeLabel(){
+        if(type==1) return "Semua Umur";
+        else if(type==2) return "Bimbingan Orang Tua";
+        else if(type==3) return "Dewasa";
+        else return "N/A";
+    }
+
 }

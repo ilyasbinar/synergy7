@@ -8,9 +8,11 @@ import com.example.xx2.payload.OrderResponseDto;
 import com.example.xx2.service.CinemaMovieService;
 import com.example.xx2.service.CustomerServiceFacade;
 import com.example.xx2.service.UserService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -34,7 +36,8 @@ public class OrderController {
     }
 
     @PostMapping("place")
-    public ResponseEntity<Map<String, Object>> placeOrder(@RequestBody OrderRequestDto orderRequestDto){
+    public ResponseEntity<Map<String, Object>> placeOrder(@RequestBody @Valid OrderRequestDto orderRequestDto,
+                                                          BindingResult bindingResult){
         CinemaMovie cinemaMovie = cinemaMovieService.getById(orderRequestDto.getCinemaMovieId());
         User user = userService.getById(orderRequestDto.getUserId());
 
