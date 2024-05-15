@@ -36,10 +36,12 @@ public class MovieController {
 
         //Dapatkan list of movie
         List<Movie> movieList = movieService.getAllMovie();
-//        List<MovieListReportDto> movieListReportDtoList = MovieListReportDto.fromEntity(movieList);
+        List<MovieListReportDto> movieListReportDtoList = movieList.stream()
+                .map(Movie::toDto)
+                .toList();
 
         //convert list of movie menjadi array byte[] menggunakan jasperService
-        byte[] reportContent = jasperService.getMovieListReport(movieList, format);
+        byte[] reportContent = jasperService.getMovieListReport(movieListReportDtoList, format);
 
         //return ByteArrayResource
         ByteArrayResource resource = new ByteArrayResource(reportContent);

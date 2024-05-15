@@ -1,5 +1,6 @@
 package com.example.xx2.model;
 
+import com.example.xx2.payload.MovieListReportDto;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.SQLDelete;
@@ -42,6 +43,14 @@ public class Movie extends BaseModel{
         else if(type==2) return "Bimbingan Orang Tua";
         else if(type==3) return "Dewasa";
         else return "N/A";
+    }
+
+    public MovieListReportDto toDto(){
+        MovieListReportDto dto = new MovieListReportDto();
+        dto.setId(id.toString());
+        dto.setName(name);
+        dto.setType(getTypeLabel());
+        return dto;
     }
 
 }

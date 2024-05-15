@@ -1,6 +1,7 @@
 package com.example.xx2.service;
 
 import com.example.xx2.model.Movie;
+import com.example.xx2.payload.MovieListReportDto;
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 import net.sf.jasperreports.engine.util.JRLoader;
@@ -17,7 +18,7 @@ import java.util.Map;
 @Service
 public class JasperServiceImpl implements JasperService {
     @Override
-    public byte[] getMovieListReport(List<Movie> movieList, String format){
+    public byte[] getMovieListReport(List<MovieListReportDto> MovieListReportDtoList, String format){
 
         JasperReport jasperReport;
         try {
@@ -33,12 +34,12 @@ public class JasperServiceImpl implements JasperService {
             }
         }
 
-        JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(movieList);
+        JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(MovieListReportDtoList);
 
         Map<String, Object> parameters = new HashMap<>();
-        parameters.put("total", String.valueOf(movieList.size()));
-        parameters.put("merchantName", String.valueOf(movieList.size()));
-        parameters.put("dateTime", String.valueOf(movieList.size()));
+        parameters.put("total", String.valueOf(MovieListReportDtoList.size()));
+//        parameters.put("merchantName", String.valueOf(MovieListReportDtoList.size()));
+//        parameters.put("dateTime", String.valueOf(MovieListReportDtoList.size()));
 
         JasperPrint jasperPrint;
         byte[] reportContent;
