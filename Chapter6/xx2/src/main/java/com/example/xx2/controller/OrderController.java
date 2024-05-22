@@ -2,7 +2,7 @@ package com.example.xx2.controller;
 
 import com.example.xx2.model.CinemaMovie;
 import com.example.xx2.model.Order;
-import com.example.xx2.model.User;
+import com.example.xx2.model.accounts.User;
 import com.example.xx2.payload.OrderRequestDto;
 import com.example.xx2.payload.OrderResponseDto;
 import com.example.xx2.service.CinemaMovieService;

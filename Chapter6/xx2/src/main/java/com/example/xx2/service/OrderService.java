@@ -3,7 +3,7 @@ package com.example.xx2.service;
 
 import com.example.xx2.model.CinemaMovie;
 import com.example.xx2.model.Order;
-import com.example.xx2.model.User;
+import com.example.xx2.model.accounts.User;
 
 public interface OrderService {
     Order createOrder(User user, CinemaMovie cinemaMovie, int amount);

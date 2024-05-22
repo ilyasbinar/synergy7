@@ -2,9 +2,8 @@ package com.example.xx2.service;
 
 import com.example.xx2.model.CinemaMovie;
 import com.example.xx2.model.Order;
-import com.example.xx2.model.User;
+import com.example.xx2.model.accounts.User;
 import com.example.xx2.repository.OrderRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,5 +1,6 @@
 package com.example.xx2.model;
 
+import com.example.xx2.model.accounts.User;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.SQLDelete;

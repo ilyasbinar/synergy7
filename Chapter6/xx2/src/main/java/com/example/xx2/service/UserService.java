@@ -1,6 +1,6 @@
 package com.example.xx2.service;
 
-import com.example.xx2.model.User;
+import com.example.xx2.model.accounts.User;
 
 import java.util.UUID;
 

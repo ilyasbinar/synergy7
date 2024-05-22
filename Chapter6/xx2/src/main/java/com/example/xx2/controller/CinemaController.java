@@ -8,6 +8,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -63,7 +64,8 @@ public class CinemaController {
         return new ResponseEntity<>(cinemaService.getAll(), HttpStatus.OK);
     }
 
-    @PostMapping
+    @PostMapping("/add")
+    @PreAuthorize("hasAuthority('ROLE_CINEMA')")
     public  ResponseEntity<Map<String, Object>> add(@RequestBody CinemaCreateRequestDto cinemaCreateRequestDto){
         Map<String, Object> response = new HashMap<>();
         response.put("status", "success");
