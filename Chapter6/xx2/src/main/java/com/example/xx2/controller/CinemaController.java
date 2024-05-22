@@ -8,6 +8,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
@@ -65,7 +66,7 @@ public class CinemaController {
     }
 
     @PostMapping("/add")
-    @PreAuthorize("hasAuthority('ROLE_CINEMA')")
+    @PreAuthorize("hasRole('CINEMA')")
     public  ResponseEntity<Map<String, Object>> add(@RequestBody CinemaCreateRequestDto cinemaCreateRequestDto){
         Map<String, Object> response = new HashMap<>();
         response.put("status", "success");
@@ -78,6 +79,7 @@ public class CinemaController {
     }
 
     @PutMapping("{id}")
+    @Secured({"CINEMA", "USER"})
     public Cinema add(@PathVariable("id") UUID idCinema, @RequestBody Cinema cinema){
         return cinemaService.update(idCinema, cinema);
     }
