@@ -23,14 +23,14 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void createUserPostLogin(String name, String email) {
+    public void createUserPostLogin(String username, String email) {
         Role role = roleRepository.findByName(ERole.ROLE_USER);
         Set<Role> roles = new HashSet<>(Collections.singletonList(role));
 
         User user = getByUsername(email);
         if(user == null){
             user = User.builder()
-                    .username(email)
+                    .username(username)
                     .email(email)
                     .roles(roles)
                     .build();

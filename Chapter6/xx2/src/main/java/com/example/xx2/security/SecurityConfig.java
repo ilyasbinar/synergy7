@@ -17,6 +17,7 @@ import org.springframework.security.config.annotation.web.configurers.AbstractHt
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.core.oidc.user.DefaultOidcUser;
+import org.springframework.security.oauth2.core.user.DefaultOAuth2User;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.oauth2.client.oidc.userinfo.OidcUserService;
@@ -62,9 +63,16 @@ public class SecurityConfig implements WebMvcConfigurer {
                         )
                         .successHandler((request, response, authentication) -> {
                             //create user jika belum ada di db
+                            //GOOGLE
                             DefaultOidcUser oidcUser = (DefaultOidcUser) authentication.getPrincipal();
-                            userService.createUserPostLogin(oidcUser.getAttribute("name"),
+                            userService.createUserPostLogin(oidcUser.getAttribute("email"),
                                     oidcUser.getAttribute("email"));
+
+                            //GITHUB
+//                            DefaultOAuth2User oAuth2User = (DefaultOAuth2User) authentication.getPrincipal();
+//                            userService.createUserPostLogin(oAuth2User.getAttribute("login"),
+//                                    null);
+
 
                             // Redirect to the new endpoint after successful login
                             response.sendRedirect("/auth/oauth2/success");

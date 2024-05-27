@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.oauth2.core.oidc.user.OidcUser;
+import org.springframework.security.oauth2.core.user.DefaultOAuth2User;
 import org.springframework.stereotype.Component;
 
 import java.security.Key;
@@ -30,7 +31,10 @@ public class JwtUtils {
             username = userPrincipal.getUsername();
         } else if (authentication.getPrincipal() instanceof OidcUser oidcUser) {
             username = oidcUser.getEmail();
-        } else {
+        }  else if (authentication.getPrincipal() instanceof DefaultOAuth2User defaultOAuth2User) {
+            username = defaultOAuth2User.getAttribute("login");
+        }
+        else {
             throw new IllegalArgumentException("Unsupported principal type");
         }
         Date now = new Date();
