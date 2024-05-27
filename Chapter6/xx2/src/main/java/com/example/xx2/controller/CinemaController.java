@@ -78,6 +78,19 @@ public class CinemaController {
         return new ResponseEntity<>(response, HttpStatus.CREATED);
     }
 
+    @PostMapping("/add/wishlist")
+    @PreAuthorize("hasRole('USER')")
+    public  ResponseEntity<Map<String, Object>> addWishList(@RequestBody CinemaCreateRequestDto cinemaCreateRequestDto){
+        Map<String, Object> response = new HashMap<>();
+        response.put("status", "success");
+
+        Map<String, Object> data = new HashMap<>();
+        data.put("cinema", cinemaService.create(cinemaCreateRequestDto));
+        response.put("data", data);
+
+        return new ResponseEntity<>(response, HttpStatus.CREATED);
+    }
+
     @PutMapping("{id}")
     @Secured({"CINEMA", "USER"})
     public Cinema add(@PathVariable("id") UUID idCinema, @RequestBody Cinema cinema){
