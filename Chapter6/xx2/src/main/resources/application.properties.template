@@ -23,5 +23,3 @@ security.jwt.expiration-time=60000000000
 
 
 #GOOGLE OAUTH2
-spring.security.oauth2.client.registration.google.client-id=${}
-spring.security.oauth2.client.registration.google.client-secret=${}
