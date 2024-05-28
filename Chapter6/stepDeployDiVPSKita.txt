@@ -1,0 +1,47 @@
+1. Siapkan aplikasi di github (buat project baru yang isinya hanya aplikasi tersebut)
+2. Buat database postgresql di https://neon.tech/
+3. Sesuaikan akses database dari aplikasi di application.properties
+    CONTOH:
+    spring.datasource.url=jdbc:postgresql://ep-blue-feather-27684961.ap-southeast-1.aws.neon.tech:5432/binarfud
+    spring.datasource.username=milyas
+    spring.datasource.password=zcFIQ87DhTZS
+
+4. Juga sesuaikan server conf
+    server.port=[pastikan tidak bentrok]
+    server.servlet.context-path=/[nama_student]
+
+    CONTOH:
+    server.port=8081
+    server.servlet.context-path=/ilyas
+5. Login ke server
+    ssh root@202.10.40.210
+    password: ethiopia1984
+
+6. Tambahkan proxypass:
+    nano /etc/httpd/conf.d/default-site.conf
+    CONTOH:
+    ProxyPass /ruby http://127.0.0.1:8081/ruby
+    ProxyPassReverse /ruby http://127.0.0.1:8080/ruby
+
+7. Restart apache
+   systemctl restart httpd
+8. Buat folder app
+    mkdir /home/app/[nama_student]
+    CONTOH:
+    mkdir /home/app/ruby
+9. Clone aplikasi dari github
+    cd /home/app/[nama_student]
+    CONTOH:
+    cd /home/app/ruby
+
+    git clone [alamat repository app di github]
+10. build and run aplikasi
+    cd ke aplikasi
+    ./mvnw clean package
+
+    java -jar target/[nama aplikasi]
+    CONTOH:
+    java -jar target/demoDepoloyment-0.0.1-SNAPSHOT.jar
+
+
+
