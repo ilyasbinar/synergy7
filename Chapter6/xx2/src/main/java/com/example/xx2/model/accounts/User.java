@@ -6,6 +6,7 @@ import lombok.*;
 import org.hibernate.annotations.SQLDelete;
 import org.hibernate.annotations.SQLRestriction;
 
+import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
@@ -31,6 +32,11 @@ public class User extends BaseModel {
     private long balance;
 
     private boolean deleted = Boolean.FALSE;
+
+    private boolean active = Boolean.FALSE;
+
+    private String otp; //simpan yang sudah di hash
+    private LocalDateTime expiredTime;
 
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "user_roles",
