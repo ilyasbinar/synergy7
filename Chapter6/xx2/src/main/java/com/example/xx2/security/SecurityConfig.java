@@ -48,6 +48,7 @@ public class SecurityConfig implements WebMvcConfigurer {
                 .authorizeHttpRequests(auth ->
                     auth
                         .requestMatchers("/home/hello").permitAll()
+                        .requestMatchers("/home/sendmail").permitAll()
                         .requestMatchers("/cinema", "/cinema/dto", "/cinema/re").permitAll()
                         .requestMatchers("/movie").permitAll()
                         .requestMatchers("/login").permitAll()
