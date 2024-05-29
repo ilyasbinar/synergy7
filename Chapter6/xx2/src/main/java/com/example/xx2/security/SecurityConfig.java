@@ -1,5 +1,6 @@
 package com.example.xx2.security;
 
+import com.example.xx2.security.jwt.AuthEntryPointJwt;
 import com.example.xx2.security.jwt.JwtAuthTokenFilter;
 import com.example.xx2.security.jwt.JwtUtils;
 import com.example.xx2.security.service.UserDetailsServiceImpl;
@@ -13,6 +14,7 @@ import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityCustomizer;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -28,13 +30,15 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @EnableMethodSecurity
 public class SecurityConfig implements WebMvcConfigurer {
 
+    final AuthEntryPointJwt authEntryPointJwt;
     final UserDetailsServiceImpl userDetailService;
 
     final JwtUtils jwtUtils;
 
     final UserService userService;
 
-    public SecurityConfig(UserDetailsServiceImpl userDetailService, JwtUtils jwtUtils, UserService userService) {
+    public SecurityConfig(AuthEntryPointJwt unauthorizedHandler, UserDetailsServiceImpl userDetailService, JwtUtils jwtUtils, UserService userService) {
+        this.authEntryPointJwt = unauthorizedHandler;
         this.userDetailService = userDetailService;
         this.jwtUtils = jwtUtils;
         this.userService = userService;
@@ -44,6 +48,7 @@ public class SecurityConfig implements WebMvcConfigurer {
     public SecurityFilterChain filterChain (HttpSecurity http) throws Exception {
         http
                 .csrf(AbstractHttpConfigurer::disable)
+                .exceptionHandling(exception -> exception.authenticationEntryPoint(authEntryPointJwt))
 //                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth ->
                     auth
@@ -51,7 +56,7 @@ public class SecurityConfig implements WebMvcConfigurer {
                         .requestMatchers("/home/sendmail").permitAll()
                         .requestMatchers("/cinema", "/cinema/dto", "/cinema/re").permitAll()
                         .requestMatchers("/movie").permitAll()
-                        .requestMatchers("/login").permitAll()
+                        .requestMatchers("/loginoauth").permitAll()
                         .requestMatchers("/auth/signin/**", "/auth/signin", "/register").permitAll()
                         .anyRequest().authenticated()
                 )
@@ -59,6 +64,7 @@ public class SecurityConfig implements WebMvcConfigurer {
                 .addFilterBefore(authTokenFilter(), UsernamePasswordAuthenticationFilter.class)
                 .formLogin(Customizer.withDefaults())
                 .oauth2Login(oauth2 -> oauth2
+                        .loginPage("/loginoauth")
                         .userInfoEndpoint(userInfo -> userInfo
                                 .oidcUserService(this.oidcUserService())
                         )
@@ -82,6 +88,14 @@ public class SecurityConfig implements WebMvcConfigurer {
 
         return http.build();
     }
+
+    @Bean
+    WebSecurityCustomizer webSecurityCustomizer(){
+        return (web) -> web.debug(false)
+                .ignoring()
+                .requestMatchers("/webjars/**", "/images/**", "/css/**", "/assets/**", "/favicon.ico");
+    }
+
     @Bean
     public OidcUserService oidcUserService() {
         OidcUserService delegate = new OidcUserService();

@@ -33,10 +33,10 @@ public class User extends BaseModel {
 
     private boolean deleted = Boolean.FALSE;
 
-    private boolean active = Boolean.FALSE;
-
-    private String otp; //simpan yang sudah di hash
-    private LocalDateTime expiredTime;
+//    private boolean active = Boolean.FALSE;
+//
+//    private String otp; //simpan yang sudah di hash
+//    private LocalDateTime expiredTime;
 
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "user_roles",
