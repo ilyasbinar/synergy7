@@ -38,6 +38,7 @@ public class CinemaController {
     }
 
     @GetMapping("dto")
+    @CrossOrigin(origins = "http://kompas.com")
     public List<CinemaDto> getAllDtos(){
         return cinemaService.getAll().stream()
                 .map(cinema -> modelMapper.map(cinema, CinemaDto.class))

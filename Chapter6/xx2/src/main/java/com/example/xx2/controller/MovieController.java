@@ -23,6 +23,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("movie")
+@CrossOrigin(origins = "http://kompas.com")
 public class MovieController {
     @Autowired
     MovieService movieService;

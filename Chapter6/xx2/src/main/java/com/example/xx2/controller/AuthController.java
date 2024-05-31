@@ -34,22 +34,6 @@ public class AuthController {
     @Autowired
     JwtUtils jwtUtils;
 
-    @RequestMapping("/login")
-    public ModelAndView login(HttpServletRequest request, ModelMap model,
-                              @ModelAttribute(name = "result_code") String result_code,
-                              @ModelAttribute(name = "result_message") String result_message,
-                              RedirectAttributes redirectAttributes) {
-        String error = (String) request.getSession().getAttribute("error");
-        if (error != null) {
-            model.addAttribute("error", error);
-            request.getSession().removeAttribute("error");
-        }
-        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        if (!(authentication instanceof AnonymousAuthenticationToken)) {
-            return new ModelAndView("redirect:/", model);
-        }
-        return new ModelAndView("auth/login", model);
-    }
     @PostMapping("/signin")
     public ResponseEntity<Map<String, Object>>  authenticate(@RequestBody LoginRequestDto loginRequestDto){
         Authentication authentication = authenticationManager
