@@ -45,7 +45,7 @@ public class CinemaController {
                 .toList();
     }
 
-    @GetMapping("re")
+    @GetMapping("/re")
     public ResponseEntity<Map<String, Object>> getAllRE(){
         Map<String, Object> response = new HashMap<>();
         response.put("status", "success");
