@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="659497f5-9a53-4538-a5e9-f7c025d796ef" name="Changes" comment="cors">
+      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/logs/archived/xx2-logger-2024-05-31.3.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/src/main/java/com/example/xx2/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/src/main/java/com/example/xx2/kafka/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/src/main/java/com/example/xx2/kafka/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/src/main/java/com/example/xx2/kafka/KafkaTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/src/main/java/com/example/xx2/kafka/MessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/src/main/java/com/example/xx2/kafka/MessageProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter 1/HelloWorld" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter 1/HelloWorld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-24.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-24.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-24.2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-24.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-24.4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-26.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-29.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-29.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-02.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-02.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-06.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-07.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-10.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-13.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-15.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-15.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-15.2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-15.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-16.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-21.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-22.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-22.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-22.2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-29.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-29.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-29.2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-29.3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-29.4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-29.5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-30.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-31.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-31.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-31.2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/xx2-logger.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-list-report.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/Xx2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/controller/CinemaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/controller/MovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/BaseModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/Cinema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/CinemaMovie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/MovieDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/accounts/ERole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/accounts/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/accounts/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/CinemaCreateRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/CinemaDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/CinemaUpdateAddressRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/JwtResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/LoginRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/MovieListReportDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/OrderRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/OrderResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/repository/CinemaMovieRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/repository/CinemaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/repository/MovieRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/security/jwt/AuthEntryPointJwt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/security/jwt/JwtAuthTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/security/jwt/JwtUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/security/service/UserDetailsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/security/service/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/CinemaMovieService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/CinemaMovieServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/CinemaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/CinemaServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/CustomerServiceFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/JasperService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/JasperServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/MailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/MovieService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/MovieServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/OpenApiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jasper/movie-list-report.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/ch2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/uploads/ch1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/xx2/Xx2ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fSWXB8R2xQEPFHSvSyOPoasWGG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/birruby/Documents/work/binar/sinergy7/git/Chapter6/xx2/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.xx2.payload" />
+      <recent name="com.example.xx2.security.jwt" />
+      <recent name="com.example.xx2.security.service" />
+      <recent name="com.example.xx2.security" />
+      <recent name="com.example.xx2.model.accounts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/uploads" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/assets/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources/jasper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.xx2.security.service" />
+      <recent name="com.example.xx2.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.xx2.security.jwt" />
+      <recent name="com.example.xx2" />
+      <recent name="com.example.xx2.repository" />
+      <recent name="config" />
+      <recent name="com.example.xx2.payload" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Xx2Application">
+    <configuration name="HelloFromHelloServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xx2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.xx2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.xx2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.xx2.HelloFromHelloServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecuredApiControllerIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xx2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.xx2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.xx2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.xx2.SecuredApiControllerIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Xx2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="xx2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.xx2.Xx2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Xx2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="xx2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.xx2.Xx2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SecuredApiControllerIT" />
+        <item itemvalue="JUnit.HelloFromHelloServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="659497f5-9a53-4538-a5e9-f7c025d796ef" name="Changes" comment="" />
+      <created>1713794997031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713794997031</updated>
+      <workItem from="1713794998646" duration="349000" />
+      <workItem from="1713795361245" duration="2867000" />
+      <workItem from="1713841373828" duration="599000" />
+      <workItem from="1713959735967" duration="8771000" />
+      <workItem from="1714135828254" duration="5859000" />
+      <workItem from="1714384677984" duration="8964000" />
+      <workItem from="1714651447923" duration="6644000" />
+      <workItem from="1714987783694" duration="307000" />
+      <workItem from="1715002489936" duration="87000" />
+      <workItem from="1715002618126" duration="4598000" />
+      <workItem from="1715081761615" duration="7739000" />
+      <workItem from="1715345828998" duration="5558000" />
+      <workItem from="1715597348889" duration="1957000" />
+      <workItem from="1715606782576" duration="990000" />
+      <workItem from="1715608096164" duration="1809000" />
+      <workItem from="1715610232573" duration="2418000" />
+      <workItem from="1715776319162" duration="1143000" />
+      <workItem from="1715779970315" duration="9477000" />
+      <workItem from="1715951222783" duration="3176000" />
+      <workItem from="1716273569321" duration="533000" />
+      <workItem from="1716301867499" duration="2753000" />
+      <workItem from="1716380023636" duration="9916000" />
+      <workItem from="1716797085044" duration="20068000" />
+      <workItem from="1716825418867" duration="803000" />
+      <workItem from="1716899742202" duration="6347000" />
+      <workItem from="1716982685301" duration="3569000" />
+      <workItem from="1716988294965" duration="8910000" />
+      <workItem from="1717037523837" duration="191000" />
+      <workItem from="1717071398053" duration="646000" />
+      <workItem from="1717077148814" duration="354000" />
+      <workItem from="1717157913394" duration="11098000" />
+      <workItem from="1717389643755" duration="602000" />
+      <workItem from="1717416426443" duration="834000" />
+      <workItem from="1717425688289" duration="18000" />
+    </task>
+    <task id="LOCAL-00001" summary="logger">
+      <option name="closed" value="true" />
+      <created>1713970147722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713970147722</updated>
+    </task>
+    <task id="LOCAL-00002" summary="logger">
+      <option name="closed" value="true" />
+      <created>1714141259520</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714141259520</updated>
+    </task>
+    <task id="LOCAL-00003" summary="jpa">
+      <option name="closed" value="true" />
+      <created>1714143521494</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714143521494</updated>
+    </task>
+    <task id="LOCAL-00004" summary="createdDate fixed">
+      <option name="closed" value="true" />
+      <created>1714384953030</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714384953030</updated>
+    </task>
+    <task id="LOCAL-00005" summary="jpa crud">
+      <option name="closed" value="true" />
+      <created>1714400058694</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714400058694</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Chapter 5">
+      <option name="closed" value="true" />
+      <created>1715005354631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715005354631</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Chapter 5 dto">
+      <option name="closed" value="true" />
+      <created>1715091846971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715091846971</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Chapter 5 dto">
+      <option name="closed" value="true" />
+      <created>1715350778975</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715350778975</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Chapter 5 dto">
+      <option name="closed" value="true" />
+      <created>1715784001422</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715784001422</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Chapter 5 jasper">
+      <option name="closed" value="true" />
+      <created>1715784340843</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715784340843</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Chapter 5 jasper with dto">
+      <option name="closed" value="true" />
+      <created>1715789066736</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715789066736</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Chapter 6">
+      <option name="closed" value="true" />
+      <created>1716301896178</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716301896178</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Chapter 6 auth">
+      <option name="closed" value="true" />
+      <created>1716391266519</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716391266520</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Chapter 6 oatuh2">
+      <option name="closed" value="true" />
+      <created>1716816881059</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716816881059</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Chapter 6 oatuh2">
+      <option name="closed" value="true" />
+      <created>1716817113807</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716817113807</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Chapter 6 oatuh2">
+      <option name="closed" value="true" />
+      <created>1716817162214</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716817162214</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Chapter 6 oatuh2">
+      <option name="closed" value="true" />
+      <created>1716817182834</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716817182834</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Chapter 6 oatuh2">
+      <option name="closed" value="true" />
+      <created>1716817213852</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716817213852</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Chapter 6 oatuh2 hapus gclient">
+      <option name="closed" value="true" />
+      <created>1716817289685</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716817289685</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Chapter 6 oatuh2 hapus gclient">
+      <option name="closed" value="true" />
+      <created>1716817361164</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1716817361164</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Chapter 6 oatuh2 hapus gclient">
+      <option name="closed" value="true" />
+      <created>1716821756896</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1716821756896</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Chapter 6 oatuh2 hapus gclient">
+      <option name="closed" value="true" />
+      <created>1716909018535</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1716909018535</updated>
+    </task>
+    <task id="LOCAL-00023" summary="email">
+      <option name="closed" value="true" />
+      <created>1716990492679</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1716990492679</updated>
+    </task>
+    <task id="LOCAL-00024" summary="otp">
+      <option name="closed" value="true" />
+      <created>1716991117712</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1716991117712</updated>
+    </task>
+    <task id="LOCAL-00025" summary="login">
+      <option name="closed" value="true" />
+      <created>1716996509215</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1716996509215</updated>
+    </task>
+    <task id="LOCAL-00026" summary="cors">
+      <option name="closed" value="true" />
+      <created>1717160418490</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1717160418490</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="logger" />
+    <MESSAGE value="jpa" />
+    <MESSAGE value="createdDate fixed" />
+    <MESSAGE value="jpa crud" />
+    <MESSAGE value="Chapter 5" />
+    <MESSAGE value="Chapter 5 dto" />
+    <MESSAGE value="Chapter 5 jasper" />
+    <MESSAGE value="Chapter 5 jasper with dto" />
+    <MESSAGE value="Chapter 6" />
+    <MESSAGE value="Chapter 6 auth" />
+    <MESSAGE value="Chapter 6 oatuh2" />
+    <MESSAGE value="Chapter 6 oatuh2 hapus gclient" />
+    <MESSAGE value="email" />
+    <MESSAGE value="otp" />
+    <MESSAGE value="login" />
+    <MESSAGE value="cors" />
+    <option name="LAST_COMMIT_MESSAGE" value="cors" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/xx2/controller/AuthController.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="18" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
