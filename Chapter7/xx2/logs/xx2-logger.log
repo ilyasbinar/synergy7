@@ -817,3 +817,37 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2024-06-03 21:52:35,686 INFO o.s.c.l.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] my-group-id: partitions assigned: []
 2024-06-03 21:52:40,385 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
 2024-06-03 21:54:28,639 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-03 22:22:13,253 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node 0 disconnected.
+2024-06-03 22:22:13,254 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node 2147483647 disconnected.
+2024-06-03 22:22:13,255 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2024-06-03 22:22:13,255 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Group coordinator birruby:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: true. Rediscovery will be attempted.
+2024-06-03 22:22:13,306 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2024-06-03 22:22:13,307 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node 0 (birruby/127.0.1.1:9092) could not be established. Broker may not be available.
+2024-06-03 22:22:13,358 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node 0 disconnected.
+2024-06-03 22:22:13,358 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node 0 (birruby/127.0.1.1:9092) could not be established. Broker may not be available.
+2024-06-03 22:22:13,458 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2024-06-03 22:22:13,459 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node 0 (birruby/127.0.1.1:9092) could not be established. Broker may not be available.
+2024-06-03 22:22:13,509 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node 0 disconnected.
+2024-06-03 22:22:13,509 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node 0 (birruby/127.0.1.1:9092) could not be established. Broker may not be available.
+2024-06-03 22:22:13,661 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2024-06-03 22:22:13,661 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node 0 (birruby/127.0.1.1:9092) could not be established. Broker may not be available.
+2024-06-03 22:22:13,715 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node 0 disconnected.
+2024-06-03 22:22:13,715 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node 0 (birruby/127.0.1.1:9092) could not be established. Broker may not be available.
+2024-06-03 22:22:13,893 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-06-03 22:22:13,893 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Request joining group due to: consumer pro-actively leaving the group
+2024-06-03 22:22:13,893 INFO o.a.k.c.c.KafkaConsumer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Unsubscribed all topics or patterns and assigned partitions
+2024-06-03 22:22:13,894 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-06-03 22:22:13,895 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Request joining group due to: consumer pro-actively leaving the group
+2024-06-03 22:22:13,896 INFO o.a.k.c.m.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics scheduler closed
+2024-06-03 22:22:13,896 INFO o.a.k.c.m.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-06-03 22:22:13,896 INFO o.a.k.c.m.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics reporters closed
+2024-06-03 22:22:13,898 INFO o.a.k.c.u.AppInfoParser [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] App info kafka.consumer for consumer-my-group-id-1 unregistered
+2024-06-03 22:22:13,899 INFO o.s.c.l.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] my-group-id: Consumer stopped
+2024-06-03 22:22:13,902 INFO o.a.k.c.p.KafkaProducer [SpringApplicationShutdownHook] [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-06-03 22:22:13,906 INFO o.a.k.c.m.Metrics [SpringApplicationShutdownHook] Metrics scheduler closed
+2024-06-03 22:22:13,906 INFO o.a.k.c.m.Metrics [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-06-03 22:22:13,906 INFO o.a.k.c.m.Metrics [SpringApplicationShutdownHook] Metrics reporters closed
+2024-06-03 22:22:13,907 INFO o.a.k.c.u.AppInfoParser [SpringApplicationShutdownHook] App info kafka.producer for producer-1 unregistered
+2024-06-03 22:22:13,919 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 22:22:13,921 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-03 22:22:13,923 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
