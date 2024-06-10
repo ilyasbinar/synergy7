@@ -1,5 +1,6 @@
 package com.example.xx2.service;
 
+import com.example.xx2.kafka.MessageProducer;
 import com.example.xx2.model.Cinema;
 import com.example.xx2.model.CinemaMovie;
 import com.example.xx2.model.Movie;
@@ -10,6 +11,8 @@ import com.example.xx2.repository.CinemaRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 import java.util.Optional;
@@ -22,6 +25,9 @@ public class CinemaServiceImpl implements CinemaService {
 
     @Autowired
     ModelMapper modelMapper;
+
+    @Autowired
+    MessageProducer messageProducer;
 
     @Autowired
     CinemaMovieRepository cinemaMovieRepository;
@@ -78,6 +84,9 @@ public class CinemaServiceImpl implements CinemaService {
         cinema.setName(cinemaCreateRequestDto.getName());
         cinema.setAddress(cinemaCreateRequestDto.getAddress());
         cinemaRepository.save(cinema);
+
+        messageProducer.sendMessage("my-whislist", cinema);
+
 
         return modelMapper.map(cinema, CinemaDto.class);
     }

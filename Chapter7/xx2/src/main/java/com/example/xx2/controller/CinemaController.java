@@ -77,6 +77,7 @@ public class CinemaController {
         data.put("cinema", cinemaService.create(cinemaCreateRequestDto));
         response.put("data", data);
 
+
         return new ResponseEntity<>(response, HttpStatus.CREATED);
     }
 
