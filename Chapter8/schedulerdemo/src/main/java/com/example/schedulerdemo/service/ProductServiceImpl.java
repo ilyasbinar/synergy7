@@ -4,9 +4,13 @@ import com.example.schedulerdemo.model.OrderItem;
 import com.example.schedulerdemo.model.Product;
 import com.example.schedulerdemo.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
+@Service
 public class ProductServiceImpl implements ProductService{
     @Autowired
     ProductRepository productRepository;
@@ -25,5 +29,10 @@ public class ProductServiceImpl implements ProductService{
         }
         product.setQuantity(newQuantity);
         productRepository.save(product);
+    }
+
+    @Override
+    public List<Product> getAll() {
+        return productRepository.findAll();
     }
 }

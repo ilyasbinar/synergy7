@@ -9,7 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 @Entity
-@Table(name="order")
+@Table(name="order_item")
 public class OrderItem {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
