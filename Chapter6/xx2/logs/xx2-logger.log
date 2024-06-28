@@ -1,0 +1,853 @@
+2024-06-03 20:26:22,303 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 22.0.1 with PID 9291 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter7/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter7/xx2)
+2024-06-03 20:26:22,309 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-03 20:26:25,625 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 20:26:25,855 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 184 ms. Found 6 JPA repository interfaces.
+2024-06-03 20:26:27,893 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-03 20:26:27,918 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 20:26:27,923 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-03 20:26:27,924 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-03 20:26:28,070 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-03 20:26:28,071 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5661 ms
+2024-06-03 20:26:28,880 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 20:26:29,159 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-03 20:26:29,395 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-03 20:26:30,133 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03 20:26:30,180 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-03 20:26:30,382 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13ee97af
+2024-06-03 20:26:30,385 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-03 20:26:30,461 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-03 20:26:32,588 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-03 20:26:32,808 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 20:26:33,752 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-03 20:26:34,191 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 20:26:35,222 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@75381b61, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2801ccb3, org.springframework.security.web.context.SecurityContextHolderFilter@44252e9b, org.springframework.security.web.header.HeaderWriterFilter@2c3df478, org.springframework.web.filter.CorsFilter@42102827, org.springframework.security.web.authentication.logout.LogoutFilter@3eed0375, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@45bb502f, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@2a8eed58, com.example.xx2.security.jwt.JwtAuthTokenFilter@5cbebfba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1c74251b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@788a7567, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62672ad5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5896899d, org.springframework.security.web.access.ExceptionTranslationFilter@ece7204, org.springframework.security.web.access.intercept.AuthorizationFilter@4b60ff1c]
+2024-06-03 20:26:35,770 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 20:26:35,771 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/webjars/**']
+2024-06-03 20:26:35,772 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 20:26:35,772 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/images/**']
+2024-06-03 20:26:35,772 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 20:26:35,773 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/css/**']
+2024-06-03 20:26:35,773 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/assets/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 20:26:35,773 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/assets/**']
+2024-06-03 20:26:35,773 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 20:26:35,774 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/favicon.ico']
+2024-06-03 20:26:35,857 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 20:26:35,872 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-03 20:26:35,890 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 15.656 seconds (process running for 17.967)
+2024-06-03 20:26:50,567 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 20:26:50,570 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-03 20:26:50,575 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-03 21:06:46,200 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 22.0.1 with PID 11836 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter7/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter7/xx2)
+2024-06-03 21:06:46,204 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-03 21:06:47,776 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 21:06:47,899 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 111 ms. Found 6 JPA repository interfaces.
+2024-06-03 21:06:49,043 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-03 21:06:49,061 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 21:06:49,064 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-03 21:06:49,065 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-03 21:06:49,145 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-03 21:06:49,147 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2862 ms
+2024-06-03 21:06:49,423 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 21:06:49,527 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-03 21:06:49,585 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-03 21:06:49,923 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03 21:06:49,961 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-03 21:06:50,103 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bf4e48e
+2024-06-03 21:06:50,107 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-03 21:06:50,159 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-03 21:06:51,868 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-03 21:06:52,087 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 21:07:09,469 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-03 21:07:09,866 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 21:07:10,685 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4f74edbf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c1f2651, org.springframework.security.web.context.SecurityContextHolderFilter@2acbbee4, org.springframework.security.web.header.HeaderWriterFilter@5988e36e, org.springframework.web.filter.CorsFilter@5ce9c9e8, org.springframework.security.web.authentication.logout.LogoutFilter@4a571516, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@6e157f48, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@27ca8a5a, com.example.xx2.security.jwt.JwtAuthTokenFilter@6c9e7af2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@42e14655, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@500d4de8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43851574, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@249fa2cb, org.springframework.security.web.access.ExceptionTranslationFilter@2afe263, org.springframework.security.web.access.intercept.AuthorizationFilter@86abdbd]
+2024-06-03 21:07:24,355 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:07:24,356 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/webjars/**']
+2024-06-03 21:07:24,356 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:07:24,357 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/images/**']
+2024-06-03 21:07:24,357 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:07:24,357 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/css/**']
+2024-06-03 21:07:24,357 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/assets/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:07:24,357 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/assets/**']
+2024-06-03 21:07:24,358 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:07:24,358 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/favicon.ico']
+2024-06-03 21:07:24,533 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 21:07:24,552 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-03 21:07:24,631 INFO o.a.k.c.c.AbstractConfig [main] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-my-group-id-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = my-group-id
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringSerializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-06-03 21:07:24,665 INFO o.a.k.c.m.Metrics [main] Metrics scheduler closed
+2024-06-03 21:07:24,665 INFO o.a.k.c.m.Metrics [main] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-06-03 21:07:24,666 INFO o.a.k.c.m.Metrics [main] Metrics reporters closed
+2024-06-03 21:07:24,668 INFO o.a.k.c.u.AppInfoParser [main] App info kafka.consumer for consumer-my-group-id-1 unregistered
+2024-06-03 21:07:24,672 INFO o.a.j.l.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-03 21:07:24,677 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'
+2024-06-03 21:07:24,688 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 21:07:24,693 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-06-03 21:07:24,700 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-06-03 21:07:24,723 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-03 21:07:24,751 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:291)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:471)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:260)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:981)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.xx2.Xx2Application.main(Xx2Application.java:14)
+Caused by: org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:781)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:671)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer.<init>(DefaultKafkaConsumerFactory.java:477)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createRawConsumer(DefaultKafkaConsumerFactory.java:461)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createKafkaConsumer(DefaultKafkaConsumerFactory.java:438)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createConsumerWithAdjustedProperties(DefaultKafkaConsumerFactory.java:415)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createKafkaConsumer(DefaultKafkaConsumerFactory.java:382)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createConsumer(DefaultKafkaConsumerFactory.java:359)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.<init>(KafkaMessageListenerContainer.java:890)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer.doStart(KafkaMessageListenerContainer.java:393)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:510)
+	at org.springframework.kafka.listener.ConcurrentMessageListenerContainer.doStart(ConcurrentMessageListenerContainer.java:254)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:510)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.startIfNecessary(KafkaListenerEndpointRegistry.java:390)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.start(KafkaListenerEndpointRegistry.java:335)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:288)
+	... 13 common frames omitted
+Caused by: org.apache.kafka.common.KafkaException: class org.apache.kafka.common.serialization.StringSerializer is not an instance of org.apache.kafka.common.serialization.Deserializer
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:400)
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:434)
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:419)
+	at org.apache.kafka.clients.consumer.internals.ConsumerUtils.createKeyDeserializer(ConsumerUtils.java:155)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:701)
+	... 28 common frames omitted
+2024-06-03 21:08:52,577 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 22.0.1 with PID 12060 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter7/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter7/xx2)
+2024-06-03 21:08:52,582 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-03 21:08:53,968 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 21:08:54,082 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 101 ms. Found 6 JPA repository interfaces.
+2024-06-03 21:08:55,125 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-03 21:08:55,143 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 21:08:55,146 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-03 21:08:55,146 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-03 21:08:55,230 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-03 21:08:55,231 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2578 ms
+2024-06-03 21:08:55,501 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 21:08:55,601 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-03 21:08:55,644 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-03 21:08:55,958 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03 21:08:55,995 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-03 21:08:56,114 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@552bee2f
+2024-06-03 21:08:56,117 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-03 21:08:56,159 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-03 21:08:57,698 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-03 21:08:57,890 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 21:08:59,250 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-03 21:08:59,576 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 21:09:00,352 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@63ee2891, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9670873, org.springframework.security.web.context.SecurityContextHolderFilter@4fec93d0, org.springframework.security.web.header.HeaderWriterFilter@4414ee28, org.springframework.web.filter.CorsFilter@4ee41c66, org.springframework.security.web.authentication.logout.LogoutFilter@3dc70aa0, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@19d043a8, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@41dcfd0, com.example.xx2.security.jwt.JwtAuthTokenFilter@413e8246, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@49c74506, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c1c134, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@486480e2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35fea0cd, org.springframework.security.web.access.ExceptionTranslationFilter@3ef2f84c, org.springframework.security.web.access.intercept.AuthorizationFilter@521e34d4]
+2024-06-03 21:09:01,081 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:09:01,082 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/webjars/**']
+2024-06-03 21:09:01,082 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:09:01,082 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/images/**']
+2024-06-03 21:09:01,082 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:09:01,082 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/css/**']
+2024-06-03 21:09:01,083 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/assets/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:09:01,083 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/assets/**']
+2024-06-03 21:09:01,083 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:09:01,083 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/favicon.ico']
+2024-06-03 21:09:01,230 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 21:09:01,247 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-03 21:09:01,323 INFO o.a.k.c.c.AbstractConfig [main] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-my-group-id-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = my-group-id
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-06-03 21:09:01,486 INFO o.a.k.c.u.AppInfoParser$AppInfo [main] Kafka version: 3.6.2
+2024-06-03 21:09:01,486 INFO o.a.k.c.u.AppInfoParser$AppInfo [main] Kafka commitId: c4deed513057c94e
+2024-06-03 21:09:01,487 INFO o.a.k.c.u.AppInfoParser$AppInfo [main] Kafka startTimeMs: 1717423741483
+2024-06-03 21:09:01,491 INFO o.a.k.c.c.KafkaConsumer [main] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Subscribed to topic(s): coming-soon-movie
+2024-06-03 21:09:01,523 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 10.183 seconds (process running for 11.201)
+2024-06-03 21:09:01,917 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:01,922 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:01,923 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:02,018 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:02,018 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:02,018 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:02,170 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:02,171 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:02,171 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:02,373 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:02,373 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:02,374 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:02,726 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:02,727 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:02,727 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:03,482 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:03,482 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:03,482 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:04,592 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:04,593 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:04,594 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:05,706 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:05,707 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:05,708 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:06,925 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:06,928 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:06,929 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:07,983 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:07,983 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:07,984 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:08,789 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:08,789 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:08,789 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:09,845 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:09,846 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:09,846 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:10,801 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:10,801 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:10,802 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:11,724 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:11,724 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:11,725 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:12,833 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:12,834 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:12,835 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:14,040 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:14,040 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:14,040 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:15,047 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:15,047 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:15,048 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:16,051 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:16,052 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:16,053 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:17,226 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:17,227 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:17,227 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:18,431 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:18,431 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:18,432 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:19,587 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:19,587 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:19,588 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:20,491 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:20,492 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:20,492 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:21,498 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:21,498 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:21,499 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:22,602 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:22,603 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:22,603 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:23,556 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:23,556 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:23,556 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:24,609 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:09:24,609 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-03 21:09:24,609 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-03 21:09:25,160 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-06-03 21:09:25,160 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Request joining group due to: consumer pro-actively leaving the group
+2024-06-03 21:09:25,160 INFO o.a.k.c.c.KafkaConsumer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Unsubscribed all topics or patterns and assigned partitions
+2024-06-03 21:09:25,162 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-06-03 21:09:25,162 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Request joining group due to: consumer pro-actively leaving the group
+2024-06-03 21:09:25,166 INFO o.a.k.c.m.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics scheduler closed
+2024-06-03 21:09:25,166 INFO o.a.k.c.m.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-06-03 21:09:25,167 INFO o.a.k.c.m.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics reporters closed
+2024-06-03 21:09:25,171 INFO o.a.k.c.u.AppInfoParser [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] App info kafka.consumer for consumer-my-group-id-1 unregistered
+2024-06-03 21:09:25,172 INFO o.s.c.l.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] my-group-id: Consumer stopped
+2024-06-03 21:09:25,188 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 21:09:25,192 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-03 21:09:25,196 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-03 21:39:39,095 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 22.0.1 with PID 20424 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter7/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter7/xx2)
+2024-06-03 21:39:39,097 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-03 21:39:40,102 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 21:39:40,183 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 6 JPA repository interfaces.
+2024-06-03 21:39:40,922 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-03 21:39:40,933 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 21:39:40,934 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-03 21:39:40,935 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-03 21:39:40,987 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-03 21:39:40,987 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1833 ms
+2024-06-03 21:39:41,159 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 21:39:41,241 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-03 21:39:41,276 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-03 21:39:41,494 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03 21:39:41,519 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-03 21:39:41,611 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58f50dd0
+2024-06-03 21:39:41,613 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-03 21:39:41,641 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-03 21:39:42,791 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-03 21:39:42,953 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 21:39:43,652 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-03 21:39:43,878 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 21:39:44,415 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@9063080, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1bb21ec1, org.springframework.security.web.context.SecurityContextHolderFilter@35d31e1c, org.springframework.security.web.header.HeaderWriterFilter@500d4de8, org.springframework.web.filter.CorsFilter@42626e86, org.springframework.security.web.authentication.logout.LogoutFilter@618d2191, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@1bfc6e50, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@5ce9c9e8, com.example.xx2.security.jwt.JwtAuthTokenFilter@7cb4d4ee, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@39153b05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@644eed73, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@253a8bdb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7be2f512, org.springframework.security.web.access.ExceptionTranslationFilter@2acbbee4, org.springframework.security.web.access.intercept.AuthorizationFilter@3dc70aa0]
+2024-06-03 21:39:44,863 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:39:44,864 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/webjars/**']
+2024-06-03 21:39:44,864 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:39:44,864 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/images/**']
+2024-06-03 21:39:44,865 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:39:44,865 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/css/**']
+2024-06-03 21:39:44,865 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/assets/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:39:44,865 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/assets/**']
+2024-06-03 21:39:44,865 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:39:44,865 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/favicon.ico']
+2024-06-03 21:39:44,974 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 21:39:44,990 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-06-03 21:39:44,996 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 21:39:44,998 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-06-03 21:39:45,002 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-06-03 21:39:45,029 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-03 21:39:45,047 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-06-03 21:42:40,615 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 22.0.1 with PID 21284 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter7/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter7/xx2)
+2024-06-03 21:42:40,619 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-03 21:42:41,792 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 21:42:41,870 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 6 JPA repository interfaces.
+2024-06-03 21:42:42,652 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-03 21:42:42,668 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-03 21:42:42,670 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-03 21:42:42,671 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-03 21:42:42,745 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-03 21:42:42,745 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2052 ms
+2024-06-03 21:42:43,018 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 21:42:43,113 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-03 21:42:43,156 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-03 21:42:43,456 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03 21:42:43,486 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-03 21:42:43,600 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a205ee5
+2024-06-03 21:42:43,603 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-03 21:42:43,634 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-03 21:42:44,881 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-03 21:42:45,027 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 21:42:45,805 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-03 21:42:46,024 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 21:42:46,569 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6e157f48, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37e9d191, org.springframework.security.web.context.SecurityContextHolderFilter@609f136b, org.springframework.security.web.header.HeaderWriterFilter@3a2b1f24, org.springframework.web.filter.CorsFilter@53a3ccc, org.springframework.security.web.authentication.logout.LogoutFilter@486480e2, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@2be9add0, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@72557e0d, com.example.xx2.security.jwt.JwtAuthTokenFilter@7a085d02, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@57596d71, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c4f48e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5988e36e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27ca8a5a, org.springframework.security.web.access.ExceptionTranslationFilter@3e455d01, org.springframework.security.web.access.intercept.AuthorizationFilter@4b1ef6a]
+2024-06-03 21:42:47,021 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:42:47,022 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/webjars/**']
+2024-06-03 21:42:47,022 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:42:47,023 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/images/**']
+2024-06-03 21:42:47,023 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:42:47,023 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/css/**']
+2024-06-03 21:42:47,024 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/assets/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:42:47,024 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/assets/**']
+2024-06-03 21:42:47,024 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:42:47,024 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/favicon.ico']
+2024-06-03 21:42:47,150 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-03 21:42:47,157 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-06-03 21:42:47,165 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 21:42:47,167 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-06-03 21:42:47,171 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-06-03 21:42:47,193 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-03 21:42:47,212 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-06-03 21:43:32,506 INFO o.s.b.StartupInfoLogger [main] Starting Xx2Application using Java 22.0.1 with PID 21443 (/home/birruby/Documents/work/binar/sinergy7/git/Chapter7/xx2/target/classes started by birruby in /home/birruby/Documents/work/binar/sinergy7/git/Chapter7/xx2)
+2024-06-03 21:43:32,508 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-03 21:43:33,602 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03 21:43:33,679 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 6 JPA repository interfaces.
+2024-06-03 21:43:34,432 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-06-03 21:43:34,448 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-06-03 21:43:34,451 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-03 21:43:34,451 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-03 21:43:34,517 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-03 21:43:34,518 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1934 ms
+2024-06-03 21:43:34,727 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03 21:43:34,817 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-03 21:43:34,861 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-03 21:43:35,145 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03 21:43:35,174 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-03 21:43:35,279 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51cca357
+2024-06-03 21:43:35,281 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-03 21:43:35,314 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-03 21:43:36,669 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-03 21:43:36,830 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 21:43:37,735 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-03 21:43:38,016 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03 21:43:38,725 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20305c45, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e157f48, org.springframework.security.web.context.SecurityContextHolderFilter@1314ccc1, org.springframework.security.web.header.HeaderWriterFilter@6d13cd6d, org.springframework.web.filter.CorsFilter@37e9d191, org.springframework.security.web.authentication.logout.LogoutFilter@4c1c134, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@49c74506, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@149e457, com.example.xx2.security.jwt.JwtAuthTokenFilter@1fd4850b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4b1ef6a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2afe263, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c4f48e2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53a3ccc, org.springframework.security.web.access.ExceptionTranslationFilter@24032706, org.springframework.security.web.access.intercept.AuthorizationFilter@618d2191]
+2024-06-03 21:43:39,283 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:43:39,283 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/webjars/**']
+2024-06-03 21:43:39,283 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:43:39,283 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/images/**']
+2024-06-03 21:43:39,284 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:43:39,284 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/css/**']
+2024-06-03 21:43:39,284 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/assets/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:43:39,284 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/assets/**']
+2024-06-03 21:43:39,285 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-03 21:43:39,285 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/favicon.ico']
+2024-06-03 21:43:39,410 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-06-03 21:43:39,424 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8081 (http) with context path ''
+2024-06-03 21:43:39,487 INFO o.a.k.c.c.AbstractConfig [main] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-my-group-id-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = my-group-id
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-06-03 21:43:39,670 INFO o.a.k.c.u.AppInfoParser$AppInfo [main] Kafka version: 3.6.2
+2024-06-03 21:43:39,671 INFO o.a.k.c.u.AppInfoParser$AppInfo [main] Kafka commitId: c4deed513057c94e
+2024-06-03 21:43:39,671 INFO o.a.k.c.u.AppInfoParser$AppInfo [main] Kafka startTimeMs: 1717425819669
+2024-06-03 21:43:39,675 INFO o.a.k.c.c.KafkaConsumer [main] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Subscribed to topic(s): coming-soon-movie
+2024-06-03 21:43:39,706 INFO o.s.b.StartupInfoLogger [main] Started Xx2Application in 8.044 seconds (process running for 8.866)
+2024-06-03 21:43:40,334 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Error while fetching metadata with correlation id 2 : {coming-soon-movie=LEADER_NOT_AVAILABLE}
+2024-06-03 21:43:40,337 INFO o.a.k.c.Metadata [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Cluster ID: XtsijpV-T3qcylbx4ZG0wA
+2024-06-03 21:43:40,472 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Error while fetching metadata with correlation id 4 : {coming-soon-movie=LEADER_NOT_AVAILABLE}
+2024-06-03 21:43:40,607 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Error while fetching metadata with correlation id 6 : {coming-soon-movie=LEADER_NOT_AVAILABLE}
+2024-06-03 21:43:41,450 INFO o.a.k.c.c.i.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Discovered group coordinator birruby:9092 (id: 2147483647 rack: null)
+2024-06-03 21:43:41,454 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] (Re-)joining group
+2024-06-03 21:43:41,542 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Request joining group due to: need to re-join with the given member-id: consumer-my-group-id-1-c525190d-ef97-4b05-8641-2f326dec44a3
+2024-06-03 21:43:41,543 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-06-03 21:43:41,544 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] (Re-)joining group
+2024-06-03 21:43:41,590 INFO o.a.k.c.c.i.AbstractCoordinator$JoinGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Successfully joined group with generation Generation{generationId=1, memberId='consumer-my-group-id-1-c525190d-ef97-4b05-8641-2f326dec44a3', protocol='range'}
+2024-06-03 21:43:41,605 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Finished assignment for group at generation 1: {consumer-my-group-id-1-c525190d-ef97-4b05-8641-2f326dec44a3=Assignment(partitions=[coming-soon-movie-0])}
+2024-06-03 21:43:41,691 INFO o.a.k.c.c.i.AbstractCoordinator$SyncGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Successfully synced group in generation Generation{generationId=1, memberId='consumer-my-group-id-1-c525190d-ef97-4b05-8641-2f326dec44a3', protocol='range'}
+2024-06-03 21:43:41,692 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Notifying assignor about the new Assignment(partitions=[coming-soon-movie-0])
+2024-06-03 21:43:41,697 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Adding newly assigned partitions: coming-soon-movie-0
+2024-06-03 21:43:41,718 INFO o.a.k.c.c.i.ConsumerCoordinator$OffsetFetchResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Found no committed offset for partition coming-soon-movie-0
+2024-06-03 21:43:41,726 INFO o.a.k.c.c.i.ConsumerCoordinator$OffsetFetchResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Found no committed offset for partition coming-soon-movie-0
+2024-06-03 21:43:41,748 INFO o.a.k.c.c.i.SubscriptionState [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Resetting offset for partition coming-soon-movie-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[birruby:9092 (id: 0 rack: null)], epoch=0}}.
+2024-06-03 21:43:41,782 INFO o.s.c.l.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] my-group-id: partitions assigned: [coming-soon-movie-0]
+2024-06-03 21:45:17,912 INFO o.a.j.l.DirectJDKLog [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03 21:45:17,913 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-03 21:45:17,916 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-2] Completed initialization in 3 ms
+2024-06-03 21:45:18,018 INFO o.a.k.c.c.AbstractConfig [http-nio-8081-exec-2] ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-06-03 21:45:18,031 INFO o.a.k.c.p.KafkaProducer [http-nio-8081-exec-2] [Producer clientId=producer-1] Instantiated an idempotent producer.
+2024-06-03 21:45:18,056 INFO o.a.k.c.u.AppInfoParser$AppInfo [http-nio-8081-exec-2] Kafka version: 3.6.2
+2024-06-03 21:45:18,056 INFO o.a.k.c.u.AppInfoParser$AppInfo [http-nio-8081-exec-2] Kafka commitId: c4deed513057c94e
+2024-06-03 21:45:18,057 INFO o.a.k.c.u.AppInfoParser$AppInfo [http-nio-8081-exec-2] Kafka startTimeMs: 1717425918055
+2024-06-03 21:45:18,064 INFO o.a.k.c.Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Cluster ID: XtsijpV-T3qcylbx4ZG0wA
+2024-06-03 21:45:18,181 INFO o.a.k.c.p.i.TransactionManager [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] ProducerId set to 0 with epoch 0
+2024-06-03 21:52:35,673 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Request joining group due to: group is already rebalancing
+2024-06-03 21:52:35,674 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Revoke previously assigned partitions coming-soon-movie-0
+2024-06-03 21:52:35,675 INFO o.s.c.l.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] my-group-id: partitions revoked: [coming-soon-movie-0]
+2024-06-03 21:52:35,676 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] (Re-)joining group
+2024-06-03 21:52:35,678 INFO o.a.k.c.c.i.AbstractCoordinator$JoinGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Successfully joined group with generation Generation{generationId=2, memberId='consumer-my-group-id-1-c525190d-ef97-4b05-8641-2f326dec44a3', protocol='range'}
+2024-06-03 21:52:35,679 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Finished assignment for group at generation 2: {consumer-my-group-id-1-c525190d-ef97-4b05-8641-2f326dec44a3=Assignment(partitions=[]), consumer-my-group-id-1-8bbb0612-f8c2-42d7-95c5-9426605ffc18=Assignment(partitions=[coming-soon-movie-0])}
+2024-06-03 21:52:35,684 INFO o.a.k.c.c.i.AbstractCoordinator$SyncGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Successfully synced group in generation Generation{generationId=2, memberId='consumer-my-group-id-1-c525190d-ef97-4b05-8641-2f326dec44a3', protocol='range'}
+2024-06-03 21:52:35,685 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Notifying assignor about the new Assignment(partitions=[])
+2024-06-03 21:52:35,685 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Adding newly assigned partitions: 
+2024-06-03 21:52:35,686 INFO o.s.c.l.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] my-group-id: partitions assigned: []
+2024-06-03 21:52:40,385 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node -1 disconnected.
+2024-06-03 21:54:28,639 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-03 22:22:13,253 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node 0 disconnected.
+2024-06-03 22:22:13,254 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node 2147483647 disconnected.
+2024-06-03 22:22:13,255 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2024-06-03 22:22:13,255 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Group coordinator birruby:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: true. Rediscovery will be attempted.
+2024-06-03 22:22:13,306 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2024-06-03 22:22:13,307 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node 0 (birruby/127.0.1.1:9092) could not be established. Broker may not be available.
+2024-06-03 22:22:13,358 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node 0 disconnected.
+2024-06-03 22:22:13,358 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node 0 (birruby/127.0.1.1:9092) could not be established. Broker may not be available.
+2024-06-03 22:22:13,458 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2024-06-03 22:22:13,459 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node 0 (birruby/127.0.1.1:9092) could not be established. Broker may not be available.
+2024-06-03 22:22:13,509 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node 0 disconnected.
+2024-06-03 22:22:13,509 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node 0 (birruby/127.0.1.1:9092) could not be established. Broker may not be available.
+2024-06-03 22:22:13,661 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node 0 disconnected.
+2024-06-03 22:22:13,661 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node 0 (birruby/127.0.1.1:9092) could not be established. Broker may not be available.
+2024-06-03 22:22:13,715 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Node 0 disconnected.
+2024-06-03 22:22:13,715 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Connection to node 0 (birruby/127.0.1.1:9092) could not be established. Broker may not be available.
+2024-06-03 22:22:13,893 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-06-03 22:22:13,893 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Request joining group due to: consumer pro-actively leaving the group
+2024-06-03 22:22:13,893 INFO o.a.k.c.c.KafkaConsumer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Unsubscribed all topics or patterns and assigned partitions
+2024-06-03 22:22:13,894 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-06-03 22:22:13,895 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-my-group-id-1, groupId=my-group-id] Request joining group due to: consumer pro-actively leaving the group
+2024-06-03 22:22:13,896 INFO o.a.k.c.m.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics scheduler closed
+2024-06-03 22:22:13,896 INFO o.a.k.c.m.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-06-03 22:22:13,896 INFO o.a.k.c.m.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics reporters closed
+2024-06-03 22:22:13,898 INFO o.a.k.c.u.AppInfoParser [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] App info kafka.consumer for consumer-my-group-id-1 unregistered
+2024-06-03 22:22:13,899 INFO o.s.c.l.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] my-group-id: Consumer stopped
+2024-06-03 22:22:13,902 INFO o.a.k.c.p.KafkaProducer [SpringApplicationShutdownHook] [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-06-03 22:22:13,906 INFO o.a.k.c.m.Metrics [SpringApplicationShutdownHook] Metrics scheduler closed
+2024-06-03 22:22:13,906 INFO o.a.k.c.m.Metrics [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-06-03 22:22:13,906 INFO o.a.k.c.m.Metrics [SpringApplicationShutdownHook] Metrics reporters closed
+2024-06-03 22:22:13,907 INFO o.a.k.c.u.AppInfoParser [SpringApplicationShutdownHook] App info kafka.producer for producer-1 unregistered
+2024-06-03 22:22:13,919 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03 22:22:13,921 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-03 22:22:13,923 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

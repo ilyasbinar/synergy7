@@ -1,0 +1,11 @@
+2024-05-30 09:43:32,425 ERROR c.e.x.s.j.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error:Full authentication is required to access this resource
+2024-05-30 09:43:32,717 ERROR c.e.x.s.j.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error:Full authentication is required to access this resource
+2024-05-30 09:43:32,849 ERROR c.e.x.s.j.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error:Full authentication is required to access this resource
+2024-05-30 09:43:35,740 ERROR c.e.x.s.j.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error:Full authentication is required to access this resource
+2024-05-30 09:43:35,919 ERROR c.e.x.s.j.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error:Full authentication is required to access this resource
+2024-05-30 09:43:36,057 ERROR c.e.x.s.j.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error:Full authentication is required to access this resource
+2024-05-30 09:43:38,946 ERROR c.e.x.s.j.AuthEntryPointJwt [http-nio-8080-exec-8] Unauthorized error:Full authentication is required to access this resource
+2024-05-30 09:43:39,243 ERROR c.e.x.s.j.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error:Full authentication is required to access this resource
+2024-05-30 09:45:48,102 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-30 09:45:48,104 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-30 09:45:48,105 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

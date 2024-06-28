@@ -5,125 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="659497f5-9a53-4538-a5e9-f7c025d796ef" name="Changes" comment="cors">
-      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/logs/archived/xx2-logger-2024-05-31.3.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/src/main/java/com/example/xx2/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/src/main/java/com/example/xx2/kafka/KafkaConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/src/main/java/com/example/xx2/kafka/KafkaProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/src/main/java/com/example/xx2/kafka/KafkaTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/src/main/java/com/example/xx2/kafka/MessageConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Chapter7/xx2/src/main/java/com/example/xx2/kafka/MessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter8/unitTestingMockDemo/src/main/java/com/example/unitTestingMockDemo/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter8/unitTestingMockDemo/src/main/java/com/example/unitTestingMockDemo/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter8/unitTestingMockDemo/src/main/java/com/example/unitTestingMockDemo/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter8/unitTestingMockDemo/src/main/java/com/example/unitTestingMockDemo/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter8/unitTestingMockDemo/src/test/java/com/example/unitTestingMockDemo/AdminTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter8/unitTestingMockDemo/src/test/java/com/example/unitTestingMockDemo/HelloServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter8/unitTestingMockDemo/src/test/java/com/example/unitTestingMockDemo/PersonRepoMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chapter8/unitTestingMockDemo/src/test/java/com/example/unitTestingMockDemo/PersonRepoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Chapter 1/HelloWorld" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter 1/HelloWorld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-24.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-24.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-24.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-24.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-24.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-26.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-29.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-04-29.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-02.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-02.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-06.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-07.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-10.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-13.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-15.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-15.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-15.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-15.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-16.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-21.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-22.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-22.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-22.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-27.6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-29.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-29.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-29.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-29.3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-29.4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-29.5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-30.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-31.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-31.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/archived/xx2-logger-2024-05-31.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/xx2-logger.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-list-report.jasper" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/Xx2Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/controller/AuthController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/controller/CinemaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/controller/MovieController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/BaseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/Cinema.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/CinemaMovie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/Movie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/MovieDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/accounts/ERole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/accounts/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/model/accounts/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/CinemaCreateRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/CinemaDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/CinemaUpdateAddressRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/JwtResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/LoginRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/MovieListReportDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/OrderRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/payload/OrderResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/repository/CinemaMovieRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/repository/CinemaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/repository/MovieRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/repository/OrderRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/repository/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/security/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/security/jwt/AuthEntryPointJwt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/security/jwt/JwtAuthTokenFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/security/jwt/JwtUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/security/service/UserDetailsImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/security/service/UserDetailsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/CinemaMovieService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/CinemaMovieServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/CinemaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/CinemaServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/CustomerServiceFacade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/JasperService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/JasperServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/MailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/MovieService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/MovieServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/OrderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/xx2/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/OpenApiConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jasper/movie-list-report.jrxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/ch2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/uploads/ch1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/xx2/Xx2ApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,16 +25,35 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ilyasbinar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ilyasbinar/synergy7.git&quot;,
+    &quot;accountId&quot;: &quot;f2c12d5e-4130-4de2-b5e7-60cfc8507627&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -170,7 +79,8 @@
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/birruby/Documents/work/binar/sinergy7/git/Chapter6/xx2/src/main/resources&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/birruby/Documents/Work/binar/sinergy6/git/sinergy6/junit&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -181,11 +91,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.xx2.kafka" />
       <recent name="com.example.xx2.payload" />
       <recent name="com.example.xx2.security.jwt" />
       <recent name="com.example.xx2.security.service" />
       <recent name="com.example.xx2.security" />
-      <recent name="com.example.xx2.model.accounts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -257,6 +167,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -297,8 +215,18 @@
       <workItem from="1717077148814" duration="354000" />
       <workItem from="1717157913394" duration="11098000" />
       <workItem from="1717389643755" duration="602000" />
-      <workItem from="1717416426443" duration="834000" />
-      <workItem from="1717425688289" duration="18000" />
+      <workItem from="1717416426443" duration="604000" />
+      <workItem from="1717421067504" duration="3304000" />
+      <workItem from="1717425651434" duration="1838000" />
+      <workItem from="1717572088570" duration="688000" />
+      <workItem from="1717593970681" duration="26000" />
+      <workItem from="1717752449855" duration="3316000" />
+      <workItem from="1718027872681" duration="627000" />
+      <workItem from="1718030340132" duration="877000" />
+      <workItem from="1718032821915" duration="1139000" />
+      <workItem from="1718077846011" duration="176000" />
+      <workItem from="1718805370240" duration="1907000" />
+      <workItem from="1718845320944" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="logger">
       <option name="closed" value="true" />
@@ -552,8 +480,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/xx2/controller/AuthController.java</url>
-          <line>61</line>
+          <line>55</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/xx2/security/SecurityConfig.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/xx2/security/SecurityConfig.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/xx2/controller/CinemaController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
